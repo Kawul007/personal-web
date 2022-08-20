@@ -1,14 +1,19 @@
-import './App.css';
-import { BrowserRouter, Route, Routes, NavLink } from "react-router-dom";
-import HomePage from './pages/HomePage';
+import { element } from "prop-types";
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from "./pages/HomePage";
+import MainPage from "./pages/MainPage";
 function App() {
   return (
-    <BrowserRouter>
-    <Routes>
-      <Route exact path='/' element={<HomePage/>} />
-      <Route path='/home' exact element={<HomePage/>} />
-    </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter basename="/personal-web">
+        <Routes>
+          <Route exact path="/" element={<HomePage />} />
+          <Route path="/home" element={<HomePage />} />
+          <Route path="/mainpage" element={<MainPage />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 

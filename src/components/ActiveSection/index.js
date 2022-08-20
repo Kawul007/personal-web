@@ -66,12 +66,12 @@ const ActiveSection = () => {
         {/* <Spline scene="https://prod.spline.design/fkEJWq0QuvVeb23Y/scene.splinecode"></Spline> */}
       </SectionBackground>
       <SectionContent>
-        <h2
+        <h3
           className="animate__animated animate__bounce"
-          style={{ color: "white" }}
+          style={{ color: "white",fontFamily:"LHanoienne TypeFace" }}
         >
-          Kawul`の个人博客
-        </h2>
+         Kawul~个人博客
+        </h3>
         <SectionItem>
           <TypeWriter
             options={{

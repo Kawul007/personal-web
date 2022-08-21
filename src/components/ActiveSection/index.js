@@ -14,7 +14,8 @@ import {
 } from "./ActiveSection.style";
 // import EasyTyper from "easy-typer-js";
 import TypeWriter from "typewriter-effect";
-import Video from "../../videos/ocean.mp4";
+import Video from "../../videos/simpo.mp4";
+import BgPic from "../../images/bg.jpg";
 
 // "记得生活从不会对弱者同情！"
 // let data = ["Don't Squander It Thinking Do! ","想要的都拥有，得不到的将释怀","面朝大海，春暖花开！"];
@@ -62,7 +63,7 @@ const ActiveSection = () => {
   return (
     <SectionContainer id="home">
       <SectionBackground>
-        <BackgroundVedio autoPlay loop muted src={Video} type="vedieo/mp4" />
+        <BackgroundVedio  autoPlay loop muted src={Video} type="vedieo/mp4" />
         {/* <Spline scene="https://prod.spline.design/fkEJWq0QuvVeb23Y/scene.splinecode"></Spline> */}
       </SectionBackground>
       <SectionContent>
@@ -70,7 +71,7 @@ const ActiveSection = () => {
           className="animate__animated animate__bounce"
           style={{ color: "white",fontFamily:"LHanoienne TypeFace" }}
         >
-         Kawul~个人博客
+         Kawuli&nbsp;の&nbsp;Personal-web
         </h3>
         <SectionItem>
           <TypeWriter

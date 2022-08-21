@@ -4,7 +4,8 @@ import { BiHome } from "react-icons/bi";
 import { AiOutlineTool } from "react-icons/ai";
 import { BiNotepad } from "react-icons/bi";
 import { BiMessageAltDetail } from "react-icons/bi";
-import "../../index.css"
+import "../../index.css";
+import "../../fonts/iconfont.css";
 import {
   Nav,
   NavbarContainer,
@@ -49,8 +50,11 @@ const Navbar = ({ toggle }) => {
                   exact={true}
                   offset={-80}
                 >
-                  <BiHome />
-                  首页
+                  {/* <BiHome /> */}
+                  <svg className="icon" aria-hidden="true">
+                    <use xlinkHref="#icon-a-fangzipixel_huaban1"></use>
+                  </svg>
+                  &nbsp;首页
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -62,8 +66,11 @@ const Navbar = ({ toggle }) => {
                   exact={true}
                   offset={-80}
                 >
-                  <BiNotepad />
-                  精选博客
+                  {/* <BiNotepad /> */}
+                  <svg className="icon" aria-hidden="true">
+                    <use xlinkHref="#icon-a-xingpixel_huaban1"></use>
+                  </svg>
+                  &nbsp;精选博客
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -75,8 +82,11 @@ const Navbar = ({ toggle }) => {
                   exact={true}
                   offset={-80}
                 >
-                  <AiOutlineTool />
-                  技术便签
+                  {/* <AiOutlineTool /> */}
+                  <svg className="icon" aria-hidden="true">
+                    <use xlinkHref="#icon-a-rilipixel_huaban1"></use>
+                  </svg>
+                  &nbsp;技术便签
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -88,8 +98,11 @@ const Navbar = ({ toggle }) => {
                   exact={true}
                   offset={-80}
                 >
-                  <BiMessageAltDetail />
-                  留言板
+                  {/* <BiMessageAltDetail /> */}
+                  <svg className="icon" aria-hidden="true">
+                    <use xlinkHref="#icon-a-xinfengpixel_huaban1"></use>
+                  </svg>
+                  &nbsp;留言板
                 </NavLinks>
               </NavItem>
             </NavMenu>

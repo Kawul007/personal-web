@@ -46,7 +46,7 @@ export const SectionContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 800px;
+  height: 900px;
   position: relative;
   z-index: 1;
 `;
@@ -67,9 +67,10 @@ export const BackgroundVedio = styled.video`
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  background: #232a34;
+  background: #000;
   background-color: black;
-  opacity: 0.7;
+  opacity: 0.5;
+  
 `;
 export const SectionContent = styled.div`
   width: 100%;
@@ -80,7 +81,7 @@ export const SectionContent = styled.div`
   opacity: 0.4; */
   font-size: 30px;
   font-weight: 500;
-  margin-top: 500px;
+  margin-top: 400px;
   text-align: center;
   color: white;
   /* z-index: 1000; */
@@ -96,7 +97,8 @@ export const SectionItem = styled.div`
   text-align: center;
   align-items: center;
   font-size: 30px;
-  font-family: Consolas, Monaco, monospace;
+  font-weight: 700;
+  font-family: sans-serif;
   /* margin: 0 auto; */
   /* justify-content: center; */
   justify-content: space-around;

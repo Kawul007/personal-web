@@ -1,14 +1,21 @@
 {
   "files": {
-    "main.css": "/personal-web/static/css/main.8526d3ad.css",
-    "main.js": "/personal-web/static/js/main.26d8036b.js",
-    "static/media/ocean.mp4": "/personal-web/static/media/ocean.2573b98e9dffaeaafbba.mp4",
+    "main.css": "/personal-web/static/css/main.c1a7aa5a.css",
+    "main.js": "/personal-web/static/js/main.644a4815.js",
+    "static/media/simpo.mp4": "/personal-web/static/media/simpo.c037cbca50210bc6ee37.mp4",
+    "static/media/bg.jpg": "/personal-web/static/media/bg.1901532b925d9c22e249.jpg",
+    "static/media/iconfont.ttf?t=1661062272792": "/personal-web/static/media/iconfont.2c00beffd13a63ab0f8d.ttf",
+    "static/media/blog-img04.jpg": "/personal-web/static/media/blog-img04.54c3c51744400f10b6f1.jpg",
+    "static/media/blog-img01.jpg": "/personal-web/static/media/blog-img01.c3a639b11ddfbfac920e.jpg",
+    "static/media/blog-img03.jpg": "/personal-web/static/media/blog-img03.b94563e0090860e247ab.jpg",
+    "static/media/iconfont.woff?t=1661062272792": "/personal-web/static/media/iconfont.8a27ca72d120b99cf166.woff",
+    "static/media/iconfont.woff2?t=1661062272792": "/personal-web/static/media/iconfont.090120a0c3494a9b9827.woff2",
     "index.html": "/personal-web/index.html",
-    "main.8526d3ad.css.map": "/personal-web/static/css/main.8526d3ad.css.map",
-    "main.26d8036b.js.map": "/personal-web/static/js/main.26d8036b.js.map"
+    "main.c1a7aa5a.css.map": "/personal-web/static/css/main.c1a7aa5a.css.map",
+    "main.644a4815.js.map": "/personal-web/static/js/main.644a4815.js.map"
   },
   "entrypoints": [
-    "static/css/main.8526d3ad.css",
-    "static/js/main.26d8036b.js"
+    "static/css/main.c1a7aa5a.css",
+    "static/js/main.644a4815.js"
   ]
 }

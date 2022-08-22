@@ -42,11 +42,11 @@ export const CardImg = styled.img`
 
 export const CardContent = styled.div`
   position: absolute;
-  width: 200px;
+  width: 210px;
   height: 250px;
   margin-left: 50px;
   margin-top: -4rem;
-  background-color: aqua;
+  background-color: whitesmoke;
   z-index: 999;
   &:hover {
     transform: translateX(-20px);

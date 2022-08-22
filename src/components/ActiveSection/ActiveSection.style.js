@@ -69,7 +69,7 @@ export const BackgroundVedio = styled.video`
   object-fit: cover;
   background: #000;
   background-color: black;
-  opacity: 0.5;
+  opacity: 0.4;
   
 `;
 export const SectionContent = styled.div`

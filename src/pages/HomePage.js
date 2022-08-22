@@ -3,7 +3,9 @@ import ActiveSection from "../components/ActiveSection";
 import BlogSection from "../components/BlogSection";
 import NavBar from "../components/NavBar";
 import MobileBar from "../components/MobileBar";
-
+import TimeLine from "../components/TimeLine";
+import LeaveMessage from "../components/LeaveMessage";
+import Footer from "../components/Footer";
 const HomePage = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
@@ -15,6 +17,9 @@ const HomePage = () => {
       <NavBar toggle={toggle} />
       <ActiveSection />
       <BlogSection />
+      <TimeLine />
+      <LeaveMessage />
+      <Footer />
     </>
   );
 };

@@ -1,10 +1,15 @@
 {
   "files": {
-    "main.css": "/personal-web/static/css/main.84964de2.css",
-    "main.js": "/personal-web/static/js/main.41289c30.js",
+    "main.css": "/personal-web/static/css/main.be8aeaed.css",
+    "main.js": "/personal-web/static/js/main.bc374fa4.js",
     "static/media/simpo.mp4": "/personal-web/static/media/simpo.c037cbca50210bc6ee37.mp4",
     "static/media/img-2.jpg": "/personal-web/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
+    "static/media/blog-img11.jpg": "/personal-web/static/media/blog-img11.f4fc061a8238cfff7ab1.jpg",
+    "static/media/blog-img09.jpg": "/personal-web/static/media/blog-img09.401a62665ee496c90462.jpg",
+    "static/media/blog-img08.jpg": "/personal-web/static/media/blog-img08.5ce0934f2c9524271bd4.jpg",
+    "static/media/blog-img10.png": "/personal-web/static/media/blog-img10.6cf96362a2fcf47e7d3f.png",
     "static/media/bg.jpg": "/personal-web/static/media/bg.1901532b925d9c22e249.jpg",
+    "static/media/profile.png": "/personal-web/static/media/profile.40d2d3454ae9f7927ee6.png",
     "static/media/iconfont.ttf?t=1661062272792": "/personal-web/static/media/iconfont.2c00beffd13a63ab0f8d.ttf",
     "static/media/blog-img04.jpg": "/personal-web/static/media/blog-img04.54c3c51744400f10b6f1.jpg",
     "static/media/blog-img01.jpg": "/personal-web/static/media/blog-img01.c3a639b11ddfbfac920e.jpg",
@@ -14,11 +19,11 @@
     "static/media/work.svg": "/personal-web/static/media/work.62f055fa23f6e8aca84b790ea21a325e.svg",
     "static/media/school.svg": "/personal-web/static/media/school.dc479934e86a3c937c7333f36360f209.svg",
     "index.html": "/personal-web/index.html",
-    "main.84964de2.css.map": "/personal-web/static/css/main.84964de2.css.map",
-    "main.41289c30.js.map": "/personal-web/static/js/main.41289c30.js.map"
+    "main.be8aeaed.css.map": "/personal-web/static/css/main.be8aeaed.css.map",
+    "main.bc374fa4.js.map": "/personal-web/static/js/main.bc374fa4.js.map"
   },
   "entrypoints": [
-    "static/css/main.84964de2.css",
-    "static/js/main.41289c30.js"
+    "static/css/main.be8aeaed.css",
+    "static/js/main.bc374fa4.js"
   ]
 }

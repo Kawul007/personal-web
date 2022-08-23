@@ -13,7 +13,7 @@ export const CardItem = styled.ul`
   justify-content: center;
   /* background-color: aqua; */
   list-style: none;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 960px) {
     /* height: 1200px; */
     width: 100%;
   }
@@ -24,7 +24,7 @@ export const Cards = styled.li`
   height: 350px;
   margin: 120px 6%;
   box-sizing: border-box;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 960px) {
     width: 80%;
     margin: 50px 10%;
   }
@@ -35,7 +35,7 @@ export const CardImg = styled.img`
   height: 150px;
   position: static;
   z-index: -1;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 960px) {
     height: 180px;
   }
 `;
@@ -52,7 +52,7 @@ export const CardContent = styled.div`
     transform: translateX(-20px);
     box-shadow: 10px 10px 5px #888888;
   }
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 960px) {
     width: 80%;
     margin-left: 0px;
     margin-top: -5px;
@@ -89,10 +89,10 @@ export const MoreInfo = styled.div`
   .moreCont {
     float: left;
     text-align: center;
-    line-height: 40px;
+    line-height: 35px;
     margin-left: 50px;
   }
-  .moreIcon  {
+  .moreIcon {
     float: right;
     margin-right: 20px;
     text-align: center;
@@ -103,5 +103,10 @@ export const MoreInfo = styled.div`
     height: 1.1em;
     fill: currentColor;
     display: inline-block;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
   }
 `;

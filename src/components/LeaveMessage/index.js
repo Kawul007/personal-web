@@ -122,7 +122,7 @@ const LeaveMessage = () => {
           </div>
         </CardContainer> 
         <Message>
-          <Link to="/sayHi" style={{ textDecoration: "none" }}>
+          <Link to="/messagePage" style={{ textDecoration: "none" }}>
             <FaEnvelopeOpenText style={{ width: 35, height: 25 }} />
             To Say Hi ~!
           </Link>

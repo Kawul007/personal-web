@@ -50,7 +50,7 @@ const TimeLine = () => {
                   className={`Button${
                     isWorkIcon ? "workButton" : "schoolButton"
                   }`}
-                  href="/techDetails"
+                  href="/personal-web/bugPage"
                 >
                   {element.buttonText}
                 </a>

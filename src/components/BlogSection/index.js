@@ -26,7 +26,7 @@ const BlogSection = () => {
               这一块主要是来记录技术博客分享，日常积累，记录bug的主要的网站；
             </CardInfo>
             <MoreInfo>
-              <span className="moreCont">查看更多</span>
+              <span className="moreCont"><a href="/personal-web/blogPage">查看更多</a></span>
               <span className="moreIcon">
                 <svg className="icon" aria-hidden="true">
                   <use xlinkHref="#icon-icon_right-pixel"></use>
@@ -42,7 +42,7 @@ const BlogSection = () => {
             <CardTag>Bug记录</CardTag>
             <CardInfo>这一块主要是来记录技术博客分享，日常积累，记录bug的主要的网站；</CardInfo>
             <MoreInfo>
-              <span className="moreCont">查看更多</span>
+              <span className="moreCont"><a href="/personal-web/blogPage">查看更多</a></span>
               <span className="moreIcon">
                 <svg className="icon" aria-hidden="true">
                   <use xlinkHref="#icon-icon_right-pixel"></use>
@@ -58,7 +58,7 @@ const BlogSection = () => {
             <CardTag>杂谈</CardTag>
             <CardInfo>这一块主要是来记录技术博客分享，日常积累，记录bug的主要的网站；</CardInfo>
             <MoreInfo>
-              <span className="moreCont">查看更多</span>
+              <span className="moreCont"><a href="/personal-web/blogPage">查看更多</a></span>
               <span className="moreIcon">
                 <svg className="icon" aria-hidden="true">
                   <use xlinkHref="#icon-icon_right-pixel"></use>

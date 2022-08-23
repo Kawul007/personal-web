@@ -100,7 +100,7 @@ const ActiveSection = () => {
           ></TypeWriter>
         </SectionItem>
         <IconLink
-          to="technical"
+          to="blogs"
           smooth={true}
           duration={500}
           spy={true}

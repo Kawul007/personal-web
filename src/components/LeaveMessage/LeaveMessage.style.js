@@ -7,8 +7,9 @@ export const NoteContainer = styled.div`
   background: white;
   overflow: hidden;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 960px) {
     transition: 0.8s all ease;
+    height: 1600px;
   }
 `;
 
@@ -38,7 +39,13 @@ export const SubTitle = styled.div`
 export const NoteWrapper = styled.div`
   display: inline-block;
   width: 100%;
+  height: 260px;
   justify-content: center;
+  @media screen and (max-width: 960px) {
+    width: 100%;
+    /* display: block; */
+    height: 1500px;
+  }
   .flip-card {
     /* display: inline-block; */
     background-color: transparent;
@@ -90,15 +97,15 @@ export const NoteWrapper = styled.div`
 `;
 export const CardContainer = styled.div`
   display: inline-block;
-  /* background-color: blue; */
-  margin: 10px 2.5%;
+  width: 200px;
+  height: 50px;
+  margin: 10px 2%;
   .p {
     margin-bottom: 0;
   }
-  @media screen and (max-width: 768px) {
-    /* transition: 0.8s all ease; */
-    /* margin-left: 50%; */
-    margin: 10px 32%;
+  @media screen and (max-width: 960px) {
+    width: 80%;
+    margin: 100px 25%;
   }
 `;
 
@@ -107,7 +114,7 @@ export const Message = styled.div`
   width: 250px;
   height: 50px;
   font-size: 20px;
-  margin-top: 20px;
+  margin-top: 180px;
   justify-content: center;
   /* background-color: antiquewhite; */
   color: black;
@@ -122,7 +129,7 @@ export const Message = styled.div`
 
 export const LetterBoxContainer = styled.div`
   width: 100%;
-  height: 900px;
+  height: 960px;
   background-color: yellow;
 `;
 

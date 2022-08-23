@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import FixedBar from "../components/FixedBar";
 
 const MainPage = () => {
   return (
-    <div>MainPage</div>
-  )
-}
+    <>
+      <FixedBar />
+      
+    </>
+  );
+};
 
-export default MainPage
+export default MainPage;

@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 export const FooterContainer = styled.footer`
 /* height: 200px;
 width: 100%; */
+justify-content: flex-end;
 background-color: black;
 `;
 
@@ -21,7 +22,7 @@ export const FooterLinksContainer = styled.div`
 display: flex;
 justify-content: center;
 
-@media screen and (max-width:820px){
+@media screen and (max-width:960px){
     padding-top: 20px;
 }
 `;
@@ -42,7 +43,7 @@ text-align: left;
 width: 460px;
 box-sizing: border-box;
 color: #fff;
-@media screen and(max-width:420px) {
+@media screen and(max-width:960px) {
     margin: 0;
     padding: 10px;
     width: 100%;

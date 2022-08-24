@@ -9,7 +9,9 @@ import {
   CardContent,
   CardTitle,
   BlogItemImg,
+  ContentSection,
 } from "./MainSection.style";
+import { FrameGrid } from "@egjs/react-grid";
 import Profile from "../../images/profile.png";
 import Github from "../../images/github.png";
 import Youtube from "../../images/youtube7.png";
@@ -18,34 +20,70 @@ import BlogImg1 from "../../images/blog-img08.jpg";
 import BlogImg2 from "../../images/blog-img09.jpg";
 import BlogImg3 from "../../images/blog-img10.png";
 import BlogImg4 from "../../images/blog-img11.jpg";
+import BlogImg5 from "../../images/blog-img12.jpg";
+import BlogImg6 from "../../images/blog-img13.jpg";
+import BlogImg7 from "../../images/blog-img14.jpg";
+import BlogImg8 from "../../images/blog-img15.jpg";
+import BlogImg9 from "../../images/blog-img16.jpg";
+
 const MainSection = () => {
   return (
     <MainWrapper>
       <BlogSection>
-        <BlogItem style={{ marginTop: 0 }}>
-          <BlogItemImg
-            style={{ float: "left", borderRadius: "1.2rem 0 0 1.2rem" }}
-            src={BlogImg1}
-          ></BlogItemImg>
-        </BlogItem>
-        <BlogItem>
-          <BlogItemImg
-            style={{ float: "right", borderRadius: "0 1.2rem  1.2rem 0" }}
-            src={BlogImg2}
-          ></BlogItemImg>
-        </BlogItem>
-        <BlogItem>
-          <BlogItemImg
-            style={{ float: "left", borderRadius: "1.2rem 0 0 1.2rem" }}
-            src={BlogImg3}
-          ></BlogItemImg>
-        </BlogItem>
-        <BlogItem>
-          <BlogItemImg
-            style={{ float: "right", borderRadius: "0 1.2rem  1.2rem 0" }}
-            src={BlogImg4}
-          ></BlogItemImg>
-        </BlogItem>
+        <div className="item">
+          <img className="face" src={BlogImg1}></img>
+          <div className="back">
+            <a href="/blodDetails">hahahahahahah</a>
+          </div>
+        </div>
+        <div className="item">
+          <img className="face" src={BlogImg2}></img>
+          <div className="back">
+            <a href="/blodDetails">hahahahahahah</a>
+          </div>
+        </div>
+        <div className="item">
+          <img className="face" src={BlogImg3}></img>
+          <div className="back">
+            <a href="/blodDetails">hahahahahahah</a>
+          </div>
+        </div>
+        <div className="item">
+          <img className="face" src={BlogImg4}></img>
+          <div className="back">
+            <a href="/blodDetails">hahahahahahah</a>
+          </div>
+        </div>
+        <div className="item">
+          <img className="face" src={BlogImg5}></img>
+          <div className="back">
+            <a href="/blodDetails">hahahahahahah</a>
+          </div>
+        </div>
+        <div className="item">
+          <img className="face" src={BlogImg6}></img>
+          <div className="back">
+            <a href="/blodDetails">hahahahahahah</a>
+          </div>
+        </div>
+        <div className="item">
+          <img className="face" src={BlogImg7}></img>
+          <div className="back">
+            <a href="/blodDetails">hahahahahahah</a>
+          </div>
+        </div>
+        <div className="item">
+          <img className="face" src={BlogImg8}></img>
+          <div className="back">
+            <a href="/blodDetails">hahahahahahah</a>
+          </div>
+        </div>
+        <div className="item">
+          <img className="face" src={BlogImg9}></img>
+          <div className="back">
+            <a href="/blodDetails">hahahahahahah</a>
+          </div>
+        </div>
       </BlogSection>
       <ProfileSection>
         <ProfileContent>
@@ -89,8 +127,6 @@ const MainSection = () => {
           <CardTitle></CardTitle>
           <CardContent></CardContent>
         </ProfileCard>
-        <ProfileCard></ProfileCard>
-        <ProfileCard></ProfileCard>
       </ProfileSection>
     </MainWrapper>
   );

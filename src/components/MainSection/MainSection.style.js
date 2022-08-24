@@ -2,14 +2,14 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 export const MainWrapper = styled.div`
   width: 100%;
-  height: 1100px;
+  height: 800px;
 `;
 
 export const ProfileSection = styled.div`
   float: left;
   width: 20%;
   margin: 15px 10px 0px 10px;
-  height: 1000px;
+  height: 800px;
 `;
 export const ProfileContent = styled.div`
   width: 100%;
@@ -86,22 +86,52 @@ export const CardTitle = styled.div``;
 
 export const BlogSection = styled.div`
   float: left;
-  width: 65%;
-  height: 1000px;
-  margin: 15px 12px 0px 80px;
+  display: flex;
+  flex-flow: column wrap;
+  height: 100vh;
+  width: 70%;
+  margin: 15px 12px 0px 60px;
+  .item {
+    position: relative;
+    margin-top: 10px;
+    height: 150px;
+    width: calc(100% / 3 - 10px);
+    perspective: 700px;
+  }
+  .item:hover .face {
+    transform: rotateY(-180deg);
+  }
+  .face {
+    position: absolute;
+    transition: 0.5s;
+    backface-visibility: hidden;
+  }
+  .back {
+    position: absolute;
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+    transition: 0.5s;
+    background-color:linear-gradient(rgb(121, 199, 232), 10%, rgb(230, 205, 209));
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 50%;
+  }
+  .item:hover .back {
+    transform: rotateY(0);
+  }
+  .back a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 `;
-
 export const BlogItem = styled.div`
-  width: 100%;
-  height: 250px;
-  border-radius: 1.2rem;
-  margin-top: 20px;
-  background-color: #fff;
-`;
-export const BlogItemImg = styled.img`
-  width: 45%;
-  height: 100%;
-  /* border-radius: 1.2rem 0 0  1.2rem;
-  border-radius: 0 1.2; */
-  background-size: cover;
+  margin-left: 10px;
 `;

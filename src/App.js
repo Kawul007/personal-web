@@ -17,10 +17,10 @@ function App() {
           <Route path="/home" element={<HomePage />} />
           {/* <Route path="/mainpage" element={<MainPage />} /> */}
           <Route path="/blogPage" element={<BlogPage />} />
-          <Route path="/bugPage" element={<BugPage />} />
+          <Route exact path="/bugPage" element={<BugPage />} />
           <Route path="/comingPage" element={<ComingPage />} />
           <Route path="/messagePage" element={<MessagePage />} />
-          <Route path="/UpdateLog" element={<UpdateLog />} />
+          <Route path="/updateLog" element={<UpdateLog />} />
         </Routes>
       </BrowserRouter>
     </>

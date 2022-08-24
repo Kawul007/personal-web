@@ -21,10 +21,8 @@ const TimeLine = () => {
   let schoolIconStyles = { background: "#555ea6" };
 
   return (
-    <TechContainer
-      id="technical"
-      
-    ><img className="img" src={TimeBg}></img>
+    <TechContainer id="technical">
+      <img className="img" src={TimeBg}></img>
       <VerticalTimeline>
         {TimeLineElements.map((element) => {
           let isWorkIcon = element.icon === "work";

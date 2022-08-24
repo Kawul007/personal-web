@@ -23,7 +23,7 @@ const BlogSection = () => {
           <CardContent>
             <CardTag>日常生活</CardTag>
             <CardInfo>
-              这一块主要是来记录技术博客分享，日常积累，记录bug的主要的网站；
+              这里主要是用来记录个人的日常学习、工作生活的。人生漫长，何不及时行乐呢。But we can be better!
             </CardInfo>
             <MoreInfo>
               <span className="moreCont"><a href="/personal-web/blogPage">查看更多</a></span>
@@ -40,7 +40,7 @@ const BlogSection = () => {
           <CardImg src={BlogImg3}></CardImg>
           <CardContent>
             <CardTag>Bug记录</CardTag>
-            <CardInfo>这一块主要是来记录技术博客分享，日常积累，记录bug的主要的网站；</CardInfo>
+            <CardInfo>本网站搭建的一个心理路程+相关搭建技术的实现+日常实现过程当中的一些无脑的Bug+还有一些新技术学习笔记,i++;</CardInfo>
             <MoreInfo>
               <span className="moreCont"><a href="/personal-web/blogPage">查看更多</a></span>
               <span className="moreIcon">
@@ -56,7 +56,7 @@ const BlogSection = () => {
           <CardImg src={BlogImg2}></CardImg>
           <CardContent>
             <CardTag>杂谈</CardTag>
-            <CardInfo>这一块主要是来记录技术博客分享，日常积累，记录bug的主要的网站；</CardInfo>
+            <CardInfo>新技术--开心去学习--遇到很多的Bug--OMG好累--解决了Bug好开心--哦又来了--哦耶解决了Bug开心一整天--OVER~~</CardInfo>
             <MoreInfo>
               <span className="moreCont"><a href="/personal-web/blogPage">查看更多</a></span>
               <span className="moreIcon">

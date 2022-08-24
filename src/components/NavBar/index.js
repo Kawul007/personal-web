@@ -86,7 +86,7 @@ const Navbar = ({ toggle }) => {
                   <svg className="icon" aria-hidden="true">
                     <use xlinkHref="#icon-a-rilipixel_huaban1"></use>
                   </svg>
-                  &nbsp;技术便签
+                  &nbsp;个人经历
                 </NavLinks>
               </NavItem>
               <NavItem>

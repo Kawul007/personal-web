@@ -76,7 +76,9 @@ export const CardInfo = styled.div`
   width: 100%;
   height: 170px;
   margin-top: 25px;
-  font-size: 16px;
+  font-size: 18px;
+  text-indent: 2em;
+  font-weight: 500;
   box-sizing: border-box;
   padding: 10px;
   /* white-space: nowrap; */

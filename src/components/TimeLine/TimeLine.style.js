@@ -13,6 +13,11 @@ export const TechContainer = styled.div`
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   color: rgb(53, 53, 53);
+  p{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+  }
 
   /* background-image: url(../../images/img-2.jpg);
   background-size: cover; */

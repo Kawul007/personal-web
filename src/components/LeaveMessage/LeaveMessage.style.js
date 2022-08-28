@@ -4,7 +4,6 @@ import { Link as LinkS } from "react-scroll";
 export const NoteContainer = styled.div`
   width: 100%;
   height: 650px;
-  background: white;
   overflow: hidden;
 
   @media screen and (max-width: 960px) {
@@ -23,6 +22,7 @@ export const NoteTitle = styled.div`
   align-items: center;
   justify-content: center;
   font-size: 45px;
+  overflow: hidden;
 `;
 export const SubTitle = styled.div`
   margin: 0px auto;
@@ -40,7 +40,8 @@ export const NoteWrapper = styled.div`
   display: inline-block;
   width: 100%;
   height: 260px;
-  justify-content: center;
+  text-align: center;
+  justify-content: space-evenly;
   @media screen and (max-width: 960px) {
     width: 100%;
     /* display: block; */
@@ -99,7 +100,7 @@ export const CardContainer = styled.div`
   display: inline-block;
   width: 200px;
   height: 50px;
-  margin: 10px 2%;
+  margin: 10px 20px;
   .p {
     margin-bottom: 0;
   }

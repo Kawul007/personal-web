@@ -6,7 +6,7 @@ export const NoteContainer = styled.div`
   height: 650px;
   overflow: hidden;
 
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1160px) {
     transition: 0.8s all ease;
     height: 1600px;
   }
@@ -42,7 +42,7 @@ export const NoteWrapper = styled.div`
   height: 260px;
   text-align: center;
   justify-content: space-evenly;
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1160px) {
     width: 100%;
     /* display: block; */
     height: 1500px;
@@ -104,7 +104,7 @@ export const CardContainer = styled.div`
   .p {
     margin-bottom: 0;
   }
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1160px) {
     width: 80%;
     margin: 100px 25%;
   }

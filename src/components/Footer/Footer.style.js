@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 export const FooterContainer = styled.footer`
 /* height: 200px;
 width: 100%; */
-justify-content: flex-end;
+/* position: fixed;
+bottom:0px; */
+width: 100%;
 background-color: black;
 `;
 
@@ -14,7 +16,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-max-width: 1100px;
+/* width: 100%; */
 margin: 0 auto;
 `;
 
@@ -22,14 +24,14 @@ export const FooterLinksContainer = styled.div`
 display: flex;
 justify-content: center;
 
-@media screen and (max-width:960px){
+@media screen and (max-width:1160px){
     padding-top: 20px;
 }
 `;
 
 export const FooterLinksWrapper = styled.div`
 display: flex;
-@media screen and (max-width:820px){
+@media screen and (max-width:1160px){
     flex-direction: column;
 }
 `;
@@ -43,7 +45,7 @@ text-align: left;
 width: 460px;
 box-sizing: border-box;
 color: #fff;
-@media screen and(max-width:960px) {
+@media screen and(max-width:1160px) {
     margin: 0;
     padding: 10px;
     width: 100%;

@@ -31,7 +31,7 @@ export const TechContainer = styled.div`
     background-size: contain;
     
   }
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1160px) {
     padding: 100px 0;
   }
   /* @media only screen and (max-width: 1700px) {

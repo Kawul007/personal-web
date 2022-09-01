@@ -132,7 +132,7 @@ export const SectionItem = styled.div`
     animation: typing 6s steps(30), caret 1s steps(1) infinite;
     font-family: Consolas, Monaco, monospace;
   }
-  @media screen and (max-width:960px) {
+  @media screen and (max-width:1160px) {
          transition: 0.8s all ease ;
    } 
 `;

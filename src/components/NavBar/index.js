@@ -5,7 +5,7 @@ import { AiOutlineTool } from "react-icons/ai";
 import { BiNotepad } from "react-icons/bi";
 import { BiMessageAltDetail } from "react-icons/bi";
 import "../../index.css";
-import "../../fonts/iconfont.css";
+import "../../iconfont.css";
 import {
   Nav,
   NavbarContainer,

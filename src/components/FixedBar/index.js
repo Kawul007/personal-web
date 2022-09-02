@@ -1,7 +1,7 @@
 import React from "react";
 import { BarContainer } from "./FixedBar.styled";
 import "../../index.css";
-import "../../fonts/iconfont.css";
+import "../../iconfont.css";
 const FixedBar = () => {
   return (
     <>

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import "../../index.css";
-import "../../fonts/iconfont.css";
+import "../../iconfont.css";
 
 export const BarContainer = styled.div`
 position: fixed;

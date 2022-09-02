@@ -6,20 +6,87 @@ import {
   MainProfile,
   NavWrapper,
   NavItem,
+  NavLinks,
 } from "./MainSection.style";
-
+import "../../iconfont.css";
+import DailyBug from "../DailyBug/index"
+import DailyTalk from "../DailyTalk/index"
+import CoomingSoon from "../ComingSoon/index"
+import SayHi from "../SayHi/index"
 const MainSection = () => {
   return (
     <MainWrapper>
       <MainNav>
-        <NavWrapper>
-          <NavItem>精选博客</NavItem>
-          <NavItem>精选博客</NavItem>
-          <NavItem>精选博客</NavItem>
-          <NavItem>精选博客</NavItem>
-        </NavWrapper>
+        {/* <NavItem>
+          <a href="/personal-web">首页</a>
+        </NavItem> */}
+        <NavItem>
+          <NavLinks
+            to="bug"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact={true}
+          >
+            {" "}
+            <svg className="icon" aria-hidden="true">
+              <use xlinkHref="#icon-a-gongjudaopixel_huaban1"></use>
+            </svg>
+            &nbsp;日常Bug
+          </NavLinks>
+        </NavItem>
+        <NavItem>
+          <NavLinks
+            to="talk"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact={true}
+          >
+            {" "}
+            <svg className="icon" aria-hidden="true">
+              <use xlinkHref="#icon-a-fangzipixel_huaban1"></use>
+            </svg>
+            &nbsp;博客闲聊
+          </NavLinks>
+        </NavItem>
+        <NavItem>
+          <NavLinks
+            to="messages"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact={true}
+          >
+            {" "}
+            <svg className="icon" aria-hidden="true">
+              <use xlinkHref="#icon-a-dianchipixel_huaban1"></use>
+            </svg>
+            &nbsp;留言板
+          </NavLinks>
+        </NavItem>
+        <NavItem>
+          <NavLinks
+            to="comingsoon"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact={true}
+          >
+            {" "}
+            <svg className="icon" aria-hidden="true">
+              <use xlinkHref="#icon-a-shandianpixel_huaban1"></use>
+            </svg>
+            &nbsp;Coming~
+          </NavLinks>
+        </NavItem>
       </MainNav>
-      <MainContent></MainContent>
+      <MainContent>
+        <DailyBug/>
+        <DailyTalk/>
+        <SayHi/>
+        <CoomingSoon/>
+      </MainContent>
       <MainProfile></MainProfile>
     </MainWrapper>
   );

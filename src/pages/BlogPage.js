@@ -7,7 +7,7 @@ const BlogPage = () => {
     <>
       
       <MainSection />
-      <Footer/>
+    
     </>
   );
 };

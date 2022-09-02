@@ -10,7 +10,7 @@ import {
   MoreInfo,
 } from "./BlogSection.style";
 import "../../index.css";
-import "../../fonts/iconfont.css";
+import "../../iconfont.css";
 import BlogImg1 from "../../images/blog-img04.jpg";
 import BlogImg2 from "../../images/blog-img03.jpg";
 import BlogImg3 from "../../images/blog-img01.jpg";

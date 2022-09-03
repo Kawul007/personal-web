@@ -10,7 +10,7 @@ export const MainWrapper = styled.div`
 export const MainNav = styled.ul`
   float: left;
   position: fixed;
-  margin-top: 150px;
+  margin-top: 200px;
   width: 10%;
 `;
 // export const NavWrapper = styled.ul`
@@ -39,8 +39,7 @@ export const NavItem = styled.li`
   &.active {
     color: #4eb9dc;
     font-weight: 700;
-
-    /* border-bottom: 3px solid #20809f; */
+    border-bottom: 3px solid #20809f;
   }
   a {
     text-decoration: none;
@@ -81,7 +80,7 @@ export const MainContent = styled.div`
   width: 70%;
   height: auto;
   margin-left: 10%;
-  background-color: yellow;
+  /* background-color: yellow; */
 `;
 export const MainProfile = styled.div`
   float: right;

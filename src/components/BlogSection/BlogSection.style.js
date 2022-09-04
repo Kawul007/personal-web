@@ -88,11 +88,17 @@ export const CardInfo = styled.div`
 export const MoreInfo = styled.div`
   width: 100%;
   height: 40px;
+  &:hover {
+    color: #0074e8;
+  }
   .moreCont {
     float: left;
     text-align: center;
     line-height: 35px;
     margin-left: 50px;
+    &:hover {
+      color: #0074e8;
+    }
   }
   .moreIcon {
     float: right;
@@ -110,5 +116,8 @@ export const MoreInfo = styled.div`
     text-decoration: none;
     color: #000;
     font-size: 16px;
+    &:hover {
+      color: #0074e8;
+    }
   }
 `;

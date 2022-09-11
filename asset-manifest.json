@@ -1,9 +1,13 @@
 {
   "files": {
     "main.css": "/personal-web/static/css/main.892ff96c.css",
-    "main.js": "/personal-web/static/js/main.03d85528.js",
+    "main.js": "/personal-web/static/js/main.8f6fed48.js",
     "static/media/simpo.mp4": "/personal-web/static/media/simpo.c037cbca50210bc6ee37.mp4",
     "static/media/img-2.jpg": "/personal-web/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
+    "static/media/blog-img13.jpg": "/personal-web/static/media/blog-img13.4f74d9905912bfcb24eb.jpg",
+    "static/media/blog-img14.jpg": "/personal-web/static/media/blog-img14.af46fd28f276496f1421.jpg",
+    "static/media/blog-img15.jpg": "/personal-web/static/media/blog-img15.83196d472e920b7443e3.jpg",
+    "static/media/blog-img16.jpg": "/personal-web/static/media/blog-img16.7c77c576b47bb2e1a2f1.jpg",
     "static/media/bg.jpg": "/personal-web/static/media/bg.1901532b925d9c22e249.jpg",
     "static/media/iconfont.ttf?t=1661062272792": "/personal-web/static/media/iconfont.2c00beffd13a63ab0f8d.ttf",
     "static/media/blog-img04.jpg": "/personal-web/static/media/blog-img04.54c3c51744400f10b6f1.jpg",
@@ -15,10 +19,10 @@
     "static/media/school.svg": "/personal-web/static/media/school.dc479934e86a3c937c7333f36360f209.svg",
     "index.html": "/personal-web/index.html",
     "main.892ff96c.css.map": "/personal-web/static/css/main.892ff96c.css.map",
-    "main.03d85528.js.map": "/personal-web/static/js/main.03d85528.js.map"
+    "main.8f6fed48.js.map": "/personal-web/static/js/main.8f6fed48.js.map"
   },
   "entrypoints": [
     "static/css/main.892ff96c.css",
-    "static/js/main.03d85528.js"
+    "static/js/main.8f6fed48.js"
   ]
 }

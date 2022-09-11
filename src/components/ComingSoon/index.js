@@ -1,10 +1,12 @@
-import React from 'react'
-import { SoonWrapper } from './ComingSoon.style'
+import React from "react";
+import { SoonWrapper } from "./ComingSoon.style";
 
 const CoomingSoon = () => {
   return (
-    <SoonWrapper id='comingsoon'>CoomingSoon</SoonWrapper>
-  )
-}
+    <SoonWrapper id="comingsoon">
+      
+    </SoonWrapper>
+  );
+};
 
-export default CoomingSoon
+export default CoomingSoon;

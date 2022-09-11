@@ -33,7 +33,7 @@ let TimeLineElements = [
         id:4,
         title:"上海市嘉定区第一中学",
         location:"上海市-嘉庆区",
-        description:"本人远离家乡，独自一人在外求学的高中学习经历，就是因为这段经历，才会有现在的我......",
+        description:"在上海求学的高中学习经历，就是因为这段经历，才会有现在的我......",
         buttonText:"查看详情",
         date:"2014/9-2018/6",
         icon:"school"

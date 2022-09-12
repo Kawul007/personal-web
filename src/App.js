@@ -16,7 +16,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/home" element={<HomePage />} />
           {/* <Route path="/mainpage" element={<MainPage />} /> */}
-          <Route path="/blogPage" element={<BlogPage />} />
+          <Route path="/blogPage" exact element={<BlogPage />} />
           <Route exact path="/bugPage" element={<BugPage />} />
           <Route path="/comingPage" element={<ComingPage />} />
           <Route path="/messagePage" element={<MessagePage />} />

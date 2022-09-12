@@ -6,6 +6,7 @@ import MobileBar from "../components/MobileBar";
 import TimeLine from "../components/TimeLine";
 import LeaveMessage from "../components/LeaveMessage";
 import Footer from "../components/Footer";
+import FloatBtn from "../components/FloatBtn";
 const HomePage = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
@@ -20,6 +21,8 @@ const HomePage = () => {
       <TimeLine />
       <LeaveMessage />
       <Footer />
+      <FloatBtn></FloatBtn>
+      {/* <div></div> */}
     </>
   );
 };

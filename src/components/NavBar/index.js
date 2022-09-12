@@ -18,6 +18,7 @@ import {
   NavBtn,
   NavBtnLink,
 } from "./NavBar.style";
+
 const Navbar = ({ toggle }) => {
   const [scrollNav, setScrollNav] = useState(false);
   const changeNav = () => {

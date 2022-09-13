@@ -24,15 +24,16 @@ const MainSection = () => {
           <NavLinks
             to="bug"
             smooth={true}
-            duration={500}
+            duration={800}
             spy={true}
             exact={true}
           >
-            {" "}
+            {/* {" "}
             <svg className="icon" aria-hidden="true">
               <use xlinkHref="#icon-a-gongjudaopixel_huaban1"></use>
             </svg>
-            &nbsp;日常Bug
+            &nbsp; */}
+            日常Bug
           </NavLinks>
         </NavItem>
         <NavItem>
@@ -43,14 +44,15 @@ const MainSection = () => {
             spy={true}
             exact={true}
           >
-            {" "}
+            {/* {" "}
             <svg className="icon" aria-hidden="true">
               <use xlinkHref="#icon-a-fangzipixel_huaban1"></use>
             </svg>
-            &nbsp;博客闲聊
+            &nbsp; */}
+            外语学习
           </NavLinks>
         </NavItem>
-        <NavItem>
+        {/* <NavItem>
           <NavLinks
             to="messages"
             smooth={true}
@@ -62,9 +64,10 @@ const MainSection = () => {
             <svg className="icon" aria-hidden="true">
               <use xlinkHref="#icon-a-dianchipixel_huaban1"></use>
             </svg>
-            &nbsp;留言板
+            &nbsp;
+            留言板
           </NavLinks>
-        </NavItem>
+        </NavItem> */}
         <NavItem>
           <NavLinks
             to="comingsoon"
@@ -73,18 +76,19 @@ const MainSection = () => {
             spy={true}
             exact={true}
           >
-            {" "}
+            {/* {" "}
             <svg className="icon" aria-hidden="true">
               <use xlinkHref="#icon-a-shandianpixel_huaban1"></use>
             </svg>
-            &nbsp;Coming~
+            &nbsp; */}
+            Coming~
           </NavLinks>
         </NavItem>
       </MainNav>
       <MainContent>
         <DailyBug/>
         <DailyTalk/>
-        <SayHi/>
+        {/* <SayHi/> */}
         <CoomingSoon/>
       </MainContent>
       <MainProfile></MainProfile>

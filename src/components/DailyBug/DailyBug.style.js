@@ -2,19 +2,49 @@ import styled from "styled-components";
 
 export const BugWrapper = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 1350px;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  border-bottom: 1px solid transparent;
   /* background-color: blue; */
 `;
-export const TopBug = styled.div`
-  width: 33%;
-  height: 40%;
-  /* background-color: royalblue; */
-  float: left;
-  margin-left: 2px;
-  margin-top: 2%;
+export const TopBug = styled.a`
+  display: inline-block;
   box-sizing: border-box;
-  background-color: red;
+  width: 100%;
+  height: 200px;
+  &:hover {
+    color: aquamarine;
+  }
+`;
+export const BugImg = styled.img`
+  float: right;
+  width: 30%;
+  height: 200px;
+  box-sizing: border-box;
+  padding: 10px;
+`;
+export const BugContent = styled.div`
+  float: left;
+  width: 70%;
+  height: 200px;
+  /* background-color: aqua; */
+  box-sizing: border-box;
   padding: 20px;
+  h2 {
+    font-size: 20px;
+    color: black;
+    font-weight: 700;
+    /* text-indent: 2rem; */
+  }
+  p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 14px;
+    color: black;
+    /*  */
+  }
 `;
 export const MoreBug = styled.div`
   float: right;
@@ -30,9 +60,6 @@ export const MoreBug = styled.div`
     margin-right: 20px;
     text-align: center;
     line-height: 55px;
-    &:hover {
-      color: #0074e8;
-    }
   }
   .icon {
     width: 1.1em;
@@ -43,6 +70,10 @@ export const MoreBug = styled.div`
   a {
     text-decoration: none;
     color: #000;
-    font-size: 16px;
+    font-size: 16px !important;
+    &:hover {
+      color: #0074e8;
+      cursor: pointer;
+    }
   }
 `;

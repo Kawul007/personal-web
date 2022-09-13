@@ -3,6 +3,11 @@ import styled from "styled-components";
 export const HiWrapper = styled.div`
   width: 100%;
   height: 100vh;
+  /* overflow: hidden; */
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  border-bottom: 1px solid transparent;
   /* background-color: blanchedalmond; */
   /* position: absolute; */
   /* background: linear-gradient(
@@ -68,17 +73,18 @@ export const HiWrapper = styled.div`
       background-position: 0% 82%;
     }
   } */
-  h3{
+  h3 {
+    font-size: 18px;
     text-align: center;
     margin-top: 18%;
   }
-  button{
+  button {
     height: 40px;
     width: 100px;
     border: none;
     margin: 2% 45%;
     background-color: #1ddde8;
-    font-weight:700;
+    font-weight: 700;
   }
   input {
     width: 60%;
@@ -155,4 +161,10 @@ export const HiWrapper = styled.div`
       }
     }
   }
+`;
+
+export const HiContainer = styled.div`
+  width: 100%;
+  height: 100vh;
+  margin-top: 100px;
 `;

@@ -11,7 +11,8 @@ export const MainNav = styled.ul`
   float: left;
   position: fixed;
   margin-top: 200px;
-  width: 10%;
+  width: 8%;
+ 
 `;
 // export const NavWrapper = styled.ul`
 //   display: block;
@@ -57,6 +58,7 @@ export const NavLinks = styled(LinkS)`
   display: flex;
   align-items: center;
   text-align: center;
+  justify-content: center;
   text-decoration: none;
   padding: 10px 1rem;
   height: 100%;
@@ -77,9 +79,10 @@ export const NavLinks = styled(LinkS)`
 `;
 export const MainContent = styled.div`
   float: left;
-  width: 70%;
+  width: 72%;
   height: auto;
-  margin-left: 10%;
+  margin-left: 8%;
+  border-left: 1px solid gray;
   /* background-color: yellow; */
 `;
 export const MainProfile = styled.div`
@@ -87,7 +90,7 @@ export const MainProfile = styled.div`
   position:fixed;
   right: 0;
   top: 0;
-  width: 20%;
+  width: 18%;
   height: 800px;
   background-color: red;
 `;

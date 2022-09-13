@@ -2,14 +2,18 @@ import styled from "styled-components";
 
 export const TalkWrapper = styled.div`
 width: 100%;
-height: 100vh;
-margin-top: 0px;
-
+height:1350px;
+margin:0;
+padding: 0;
+font-size: 0;
+border-top: 1px solid transparent;
 `;
 
 export const TopTalk = styled.div`
-  width: 33%;
-  height: 40%;
+  /* width: 33%;
+  height: 40%; */
+  width: 100%;
+  height: 200px;
   /* background-color: royalblue; */
   float: left;
   margin-left: 2px;
@@ -45,6 +49,10 @@ export const MoreTalk = styled.div`
   a {
     text-decoration: none;
     color: #000;
-    font-size: 16px;
+    font-size: 16px !important;
+    &:hover {
+      color: #0074e8;
+      cursor: pointer;
+    }
   }
 `;

@@ -4,6 +4,10 @@ import { Link as LinkS } from "react-scroll";
 export const NoteContainer = styled.div`
   width: 100%;
   height: 650px;
+  margin: 0;
+  padding: 0;
+  /* font-size: 0px; */
+  border-top: 1px solid transparent;
   overflow: hidden;
 
   @media screen and (max-width: 1160px) {
@@ -21,7 +25,7 @@ export const NoteTitle = styled.div`
   color: royalblue;
   align-items: center;
   justify-content: center;
-  font-size: 45px;
+  font-size: 45px !important;
   overflow: hidden;
 `;
 export const SubTitle = styled.div`
@@ -33,7 +37,7 @@ export const SubTitle = styled.div`
   color: black;
   align-items: center;
   justify-content: center;
-  font-size: 20px;
+  font-size: 20px !important;
 `;
 
 export const NoteWrapper = styled.div`
@@ -114,7 +118,7 @@ export const Message = styled.div`
   display: flex;
   width: 250px;
   height: 50px;
-  font-size: 20px;
+  font-size: 20px !important;
   margin-top: 180px;
   justify-content: center;
   /* background-color: antiquewhite; */

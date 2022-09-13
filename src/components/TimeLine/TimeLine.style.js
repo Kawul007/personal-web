@@ -9,6 +9,10 @@ export const TechContainer = styled.div`
   height: fit-content;
   /* background: #000; */
   width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 0px;
+  border-top: 1px solid transparent;
   height: fit-content;
   font-family: "Montserrat", sans-serif;
   font-size: 16px;

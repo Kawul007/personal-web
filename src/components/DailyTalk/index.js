@@ -20,12 +20,14 @@ const DailyTalk = () => {
       <TopTalk></TopTalk>
       <TopTalk></TopTalk>
       <MoreTalk>
-        查看更多
-        <span className="moreIcon">
-          <svg className="icon" aria-hidden="true">
-            <use xlinkHref="#icon-icon_right-pixel"></use>
-          </svg>
-        </span>
+        <a>
+          查看更多
+          <span className="moreIcon">
+            <svg className="icon" aria-hidden="true">
+              <use xlinkHref="#icon-icon_right-pixel"></use>
+            </svg>
+          </span>
+        </a>
       </MoreTalk>
     </TalkWrapper>
   );

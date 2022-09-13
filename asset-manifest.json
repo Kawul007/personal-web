@@ -1,17 +1,22 @@
 {
   "files": {
     "main.css": "/personal-web/static/css/main.892ff96c.css",
-    "main.js": "/personal-web/static/js/main.cc1c516f.js",
+    "main.js": "/personal-web/static/js/main.e0e78d81.js",
     "static/media/simpo.mp4": "/personal-web/static/media/simpo.c037cbca50210bc6ee37.mp4",
     "static/media/img-2.jpg": "/personal-web/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
     "static/media/blog-img13.jpg": "/personal-web/static/media/blog-img13.4f74d9905912bfcb24eb.jpg",
     "static/media/blog-img14.jpg": "/personal-web/static/media/blog-img14.af46fd28f276496f1421.jpg",
     "static/media/blog-img15.jpg": "/personal-web/static/media/blog-img15.83196d472e920b7443e3.jpg",
     "static/media/blog-img16.jpg": "/personal-web/static/media/blog-img16.7c77c576b47bb2e1a2f1.jpg",
+    "static/media/blog-img11.jpg": "/personal-web/static/media/blog-img11.f4fc061a8238cfff7ab1.jpg",
+    "static/media/blog-img09.jpg": "/personal-web/static/media/blog-img09.401a62665ee496c90462.jpg",
+    "static/media/blog-img08.jpg": "/personal-web/static/media/blog-img08.5ce0934f2c9524271bd4.jpg",
+    "static/media/blog-img10.png": "/personal-web/static/media/blog-img10.6cf96362a2fcf47e7d3f.png",
     "static/media/bg.jpg": "/personal-web/static/media/bg.1901532b925d9c22e249.jpg",
     "static/media/iconfont.ttf?t=1661062272792": "/personal-web/static/media/iconfont.2c00beffd13a63ab0f8d.ttf",
     "static/media/blog-img04.jpg": "/personal-web/static/media/blog-img04.54c3c51744400f10b6f1.jpg",
     "static/media/blog-img01.jpg": "/personal-web/static/media/blog-img01.c3a639b11ddfbfac920e.jpg",
+    "static/media/blog-img05.jpg": "/personal-web/static/media/blog-img05.0f94593d2892af8eb5a8.jpg",
     "static/media/blog-img03.jpg": "/personal-web/static/media/blog-img03.b94563e0090860e247ab.jpg",
     "static/media/iconfont.woff?t=1661062272792": "/personal-web/static/media/iconfont.8a27ca72d120b99cf166.woff",
     "static/media/iconfont.woff2?t=1661062272792": "/personal-web/static/media/iconfont.090120a0c3494a9b9827.woff2",
@@ -20,10 +25,10 @@
     "static/media/profile.webp": "/personal-web/static/media/profile.31c3fa35ced122171de7.webp",
     "index.html": "/personal-web/index.html",
     "main.892ff96c.css.map": "/personal-web/static/css/main.892ff96c.css.map",
-    "main.cc1c516f.js.map": "/personal-web/static/js/main.cc1c516f.js.map"
+    "main.e0e78d81.js.map": "/personal-web/static/js/main.e0e78d81.js.map"
   },
   "entrypoints": [
     "static/css/main.892ff96c.css",
-    "static/js/main.cc1c516f.js"
+    "static/js/main.e0e78d81.js"
   ]
 }

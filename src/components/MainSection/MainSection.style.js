@@ -12,7 +12,6 @@ export const MainNav = styled.ul`
   position: fixed;
   margin-top: 200px;
   width: 8%;
- 
 `;
 // export const NavWrapper = styled.ul`
 //   display: block;
@@ -87,10 +86,75 @@ export const MainContent = styled.div`
 `;
 export const MainProfile = styled.div`
   float: right;
-  position:fixed;
+  position: fixed;
   right: 0;
   top: 0;
-  width: 18%;
+  width: 20%;
   height: 800px;
-  background-color: red;
+  /* background-color: red; */
+`;
+export const BlogSearch = styled.div`
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+  padding: 35px 2%;
+
+  #search {
+    float: left;
+    width: 82%;
+    height: 30px;
+    outline: none;
+    border: 1px solid #4eb9dc;
+  }
+  span {
+    display: inline-block;
+    width: 30px;
+    height: 32px;
+    border-top: 1px solid #4eb9dc;
+    border-bottom: 1px solid #4eb9dc;
+    border-right: 1px solid #4eb9dc;
+    line-height: 32px;
+    text-align: center;
+  }
+`;
+
+export const ProfileImage = styled.div`
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  /* background-color: aqua; */
+  img {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+  }
+  p{
+    font-weight: 700;
+  }
+  ul {
+    padding: 10px;
+  }
+  li {
+    box-sizing: border-box;
+    width: auto;
+    height: 30px;
+    list-style: none;
+    /* padding: 10px; */
+    font-size: 16px;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+    /* span {
+      display: inline-block;
+      width: 50px;
+      height: 30px;
+    } */
+  }
+`;
+
+export const ProfileContent = styled.div`
+  width: 100%;
+  height: 500px;
+  background-color: beige;
 `;

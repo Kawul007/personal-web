@@ -3,10 +3,11 @@ import styled from "styled-components";
 export const TalkWrapper = styled.div`
 width: 100%;
 height:1350px;
+overflow: hidden;
 margin:0;
 padding: 0;
 font-size: 0;
-border-top: 1px solid transparent;
+border-bottom: 1px solid transparent;
 `;
 
 export const TopTalk = styled.div`
@@ -16,10 +17,7 @@ export const TopTalk = styled.div`
   height: 200px;
   /* background-color: royalblue; */
   float: left;
-  margin-left: 2px;
-  margin-top: 2%;
   box-sizing: border-box;
-  background-color: #ababab;
   padding: 20px;
 `;
 export const MoreTalk = styled.div`

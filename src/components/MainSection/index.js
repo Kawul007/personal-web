@@ -7,13 +7,21 @@ import {
   NavWrapper,
   NavItem,
   NavLinks,
+  BlogSearch,
+  ProfileImage,
+  ProfileContent,
 } from "./MainSection.style";
 import "../../iconfont.css";
-import DailyBug from "../DailyBug/index"
-import DailyTalk from "../DailyTalk/index"
-import CoomingSoon from "../ComingSoon/index"
-import SayHi from "../SayHi/index"
+import DailyBug from "../DailyBug/index";
+import DailyTalk from "../DailyTalk/index";
+import CoomingSoon from "../ComingSoon/index";
+import SayHi from "../SayHi/index";
+import ProfileImg from "../../images/profile.png"
 const MainSection = () => {
+  // let searchBtn = document.getElementById('search')
+  // const searchClear = () =>(
+  //   document.getElementById('search').value = " "
+  // )
   return (
     <MainWrapper>
       <MainNav>
@@ -86,12 +94,27 @@ const MainSection = () => {
         </NavItem>
       </MainNav>
       <MainContent>
-        <DailyBug/>
-        <DailyTalk/>
+        <DailyBug />
+        <DailyTalk />
         {/* <SayHi/> */}
-        <CoomingSoon/>
+        <CoomingSoon />
       </MainContent>
-      <MainProfile></MainProfile>
+      <MainProfile>
+        <BlogSearch>
+          <input id="search" type="text" placeholder="请输入关键词"></input>
+          <span class="iconfont" >&#xe62e;</span>
+        </BlogSearch>
+        <ProfileImage>
+          <img src={ProfileImg}></img>
+          <ul>
+            <li><span class="iconfont">&#xe898;</span><a href="github.com/Kawul007">个人Github</a></li>
+            <li><span class="iconfont">&#xe61d;</span><a href="https://tw9tyeil4i.feishu.cn/docx/doxcnwoIOiKTJKug3GKNBHqZQ8d">在线简历</a></li>
+            <li><span class="iconfont">&#xe7e8;</span>kai423455@gmail.com</li>
+          </ul>
+          <p>Don`t Squander It Thinking. Do!</p>
+        </ProfileImage>
+        <ProfileContent></ProfileContent>
+      </MainProfile>
     </MainWrapper>
   );
 };

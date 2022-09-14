@@ -15,7 +15,10 @@ export const TopBug = styled.a`
   width: 100%;
   height: 200px;
   &:hover {
-    color: aquamarine;
+   img{
+    transform: scale(1.1);
+   }
+   background-color:  #d9eff7;
   }
 `;
 export const BugImg = styled.img`
@@ -45,6 +48,7 @@ export const BugContent = styled.div`
     color: black;
     /*  */
   }
+  
 `;
 export const MoreBug = styled.div`
   float: right;

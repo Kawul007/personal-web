@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 3601832 */
-  src: url('iconfont.woff2?t=1661062272792') format('woff2'),
-       url('iconfont.woff?t=1661062272792') format('woff'),
-       url('iconfont.ttf?t=1661062272792') format('truetype');
+  src: url('iconfont.woff2?t=1663157770666') format('woff2'),
+       url('iconfont.woff?t=1663157770666') format('woff'),
+       url('iconfont.ttf?t=1663157770666') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,50 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-biaoqian:before {
+  content: "\e65b";
+}
+
+.icon-githubbox:before {
+  content: "\e898";
+}
+
+.icon-user:before {
+  content: "\e61d";
+}
+
+.icon-MAIL:before {
+  content: "\e7e8";
+}
+
+.icon-chacha:before {
+  content: "\e62e";
+}
+
+.icon-top:before {
+  content: "\e61e";
+}
+
+.icon-icon_right-pixel:before {
+  content: "\e611";
+}
+
+.icon-a-xingpixel_huaban1:before {
+  content: "\e613";
+}
+
+.icon-a-yuechipixel_huaban1:before {
+  content: "\e614";
+}
+
+.icon-a-xinpixel_huaban1:before {
+  content: "\e61c";
+}
+
+.icon-a-fangdajingpixel_huaban1:before {
+  content: "\e61f";
 }
 
 .icon-fenxiang:before {

@@ -1,25 +1,27 @@
 import React from "react";
 import {
-  TalkImage,
-  TalkInfo,
+  TalkImg,
   TalkWrapper,
   TopTalk,
   MoreTalk,
+  TalkContent
 } from "../../components/DailyTalk/DailyTalk.style";
-import Img01 from "../../images/blog-img14.jpg";
-import Img02 from "../../images/blog-img13.jpg";
-import Img03 from "../../images/blog-img15.jpg";
-import Img04 from "../../images/blog-img16.jpg";
+import TalkItem from "./TalkItem";
 const DailyTalk = () => {
   return (
     <TalkWrapper id="talk">
-      <TopTalk></TopTalk>
-      <TopTalk></TopTalk>
-      <TopTalk></TopTalk>
-      <TopTalk></TopTalk>
-      <TopTalk></TopTalk>
-      <TopTalk></TopTalk>
-      <MoreTalk>
+      {TalkItem.map((item) => (
+          <TopTalk>
+            <TalkContent>
+              {" "}
+              <h3>{item.title}</h3>
+              <p>{item.info}</p>
+              <span>{item.date}&nbsp;&nbsp;&nbsp;{item.type}</span>
+            </TalkContent>
+            <TalkImg src={item.image}></TalkImg>
+          </TopTalk>
+        ))}
+      {/* <MoreTalk>
         <a>
           查看更多
           <span className="moreIcon">
@@ -28,7 +30,7 @@ const DailyTalk = () => {
             </svg>
           </span>
         </a>
-      </MoreTalk>
+      </MoreTalk> */}
     </TalkWrapper>
   );
 };

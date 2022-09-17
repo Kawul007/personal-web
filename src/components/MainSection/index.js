@@ -9,6 +9,7 @@ import {
   ContentDetail,
 } from "./MainSection.style";
 import DailyBug from "../DailyBug/index"
+import DailyTalk from "../DailyTalk/index"
 const MainSection = () => {
   const [toggleState, setToggleState] = useState(1);
   const toggleTab = (index) => {
@@ -46,7 +47,6 @@ const MainSection = () => {
               摸会儿鱼
             </button>
           </div>
-
           <div className="content-tabs">
             <div
               className={
@@ -56,15 +56,14 @@ const MainSection = () => {
               {/* <h2>Content 1</h2> */}
               <DailyBug />
             </div>
-
             <div
               className={
                 toggleState === 2 ? "content  active-content" : "content"
               }
             >
-              <h2>Content 2</h2>
+              {/* <h2>Content 2</h2> */}
+              <DailyTalk/>
             </div>
-
             <div
               className={
                 toggleState === 3 ? "content  active-content" : "content"

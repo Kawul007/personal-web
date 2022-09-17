@@ -8,10 +8,6 @@ import {
   BugImg,
 } from "../../components/DailyBug/DailyBug.style";
 import BugItem from "./BugItem";
-import Img01 from "../../images/blog-img14.jpg";
-import Img02 from "../../images/blog-img13.jpg";
-import Img03 from "../../images/blog-img15.jpg";
-import Img04 from "../../images/blog-img16.jpg";
 const DailyBug = () => {
   return (
     <>
@@ -20,10 +16,9 @@ const DailyBug = () => {
           <TopBug>
             <BugContent>
               {" "}
-              <p>{item.date}</p>
-              <h2>{item.title}</h2>
+              <h3>{item.title}</h3>
               <p>{item.info}</p>
-              <p>{item.type}</p>
+              <span>{item.date}&nbsp;&nbsp;&nbsp;{item.type}</span>
             </BugContent>
             <BugImg src={item.image}></BugImg>
           </TopBug>

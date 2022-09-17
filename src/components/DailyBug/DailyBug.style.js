@@ -13,32 +13,32 @@ export const TopBug = styled.a`
   display: inline-block;
   box-sizing: border-box;
   width: 100%;
-  height: 200px;
+  height: 180px;
   border-bottom: 1px solid #eeeeee;
   &:hover {
-   img{
-    transform: scale(1.1);
-   }
-   /* background-color:  #d9eff7; */
+    img {
+      transform: scale(1.1);
+    }
+    /* background-color:  #d9eff7; */
   }
 `;
 export const BugImg = styled.img`
   float: right;
   width: 30%;
-  height: 200px;
+  height: 180px;
   box-sizing: border-box;
-  padding: 10px;
+  padding: 20px;
 `;
 export const BugContent = styled.div`
   float: left;
   width: 70%;
-  height: 200px;
+  height: 180px;
   /* background-color: aqua; */
   box-sizing: border-box;
   padding: 20px;
-  h2 {
+  h3 {
     font-size: 20px;
-    color: #fff;
+    color: #000;
     font-weight: 700;
     /* text-indent: 2rem; */
   }
@@ -46,10 +46,18 @@ export const BugContent = styled.div`
     text-overflow: ellipsis;
     overflow: hidden;
     font-size: 14px;
-    color: #fff;
+    -webkit-line-clamp: 3;
+    word-break: break-all; /*允许在单词内换行，更美观*/
+    display: -webkit-box; /*元素作为box伸缩盒子*/
+    -webkit-line-clamp: 2; /*设置文本行数限制*/
+    -webkit-box-orient: vertical; /*设置文本排列方式*/
+    color: #1b1b1b;
     /*  */
   }
-  
+  span {
+    font-size: 12px;
+    color: #909090;
+  }
 `;
 export const MoreBug = styled.div`
   float: right;
@@ -74,7 +82,7 @@ export const MoreBug = styled.div`
   }
   a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
     font-size: 16px !important;
     &:hover {
       color: #0074e8;

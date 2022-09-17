@@ -65,14 +65,14 @@ export const MainContent = styled.div`
 
   button {
     border: none;
-    background-color: #000;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
   }
   .content-tabs {
     flex-grow: 1;
   }
   .content {
-    background: #000;
+    background: #fff;
     box-sizing: border-box;
     padding: 20px;
     width: 100%;

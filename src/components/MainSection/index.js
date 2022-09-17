@@ -8,8 +8,14 @@ import {
   ContentNav,
   ContentDetail,
 } from "./MainSection.style";
-import DailyBug from "../DailyBug/index"
-import DailyTalk from "../DailyTalk/index"
+import DailyBug from "../DailyBug/index";
+import DailyTalk from "../DailyTalk/index";
+import ImageProfile from "../../images/profile.png"
+import Man from "../../images/man.png"
+import MyGit from "../../images/mygit.png"
+import Mail from "../../images/mail.png"
+import Tele from "../../images/telphone .png"
+import Linked from "../../images/Linkedin.png"
 const MainSection = () => {
   const [toggleState, setToggleState] = useState(1);
   const toggleTab = (index) => {
@@ -17,8 +23,19 @@ const MainSection = () => {
   };
   return (
     <>
-      <MainTitle></MainTitle>
-      <MainProfile></MainProfile>
+      <MainTitle>
+        <a>Kai4234</a>
+      </MainTitle>
+      <MainProfile>
+        <img src={ImageProfile}></img>
+        <ul>
+          <li><img src={MyGit}></img><a href="girhub.com/Kawul007">GitHube</a></li>
+          <li><img src={Mail}></img><a href="#">kai423455@gmail.com</a></li>
+          <li><img src={Man}></img><a href="https://tw9tyeil4i.feishu.cn/docx/doxcnwoIOiKTJKug3GKNBHqZQ8d">Online-CV</a></li>
+          <li><img src={Tele}></img><a href="#">+86 18306014646</a></li>
+          <li><img src={Linked}></img><a href="www.linkedin.com/in/kawul4234"> Linkedin</a></li>
+        </ul>
+      </MainProfile>
       <MainContent>
         <div className="container">
           <div className="bloc-tabs">
@@ -62,7 +79,7 @@ const MainSection = () => {
               }
             >
               {/* <h2>Content 2</h2> */}
-              <DailyTalk/>
+              <DailyTalk />
             </div>
             <div
               className={
@@ -81,7 +98,73 @@ const MainSection = () => {
           </div>
         </div>
       </MainContent>
-      <MainBlog></MainBlog>
+      <MainBlog>
+        <h4 style={{ color: "white", marginTop: 45, marginLeft: 15 }}>
+          Latest changes
+        </h4>
+        <div class="container">
+          <ul>
+            <li>
+              <span></span>
+              <div>
+                <div class="title">Codify</div>
+                <div class="info">Let&apos;s make coolest things in css</div>
+                <div class="type">Presentation</div>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span></span>
+                <div class="title">Codify</div>
+                <div class="info">
+                  Let&apos;s make coolest things in javascript
+                </div>
+                <div class="type">Presentation</div>
+              </div>
+              <span class="number">
+                <span></span>
+                <span></span>
+              </span>
+            </li>
+            <li>
+              <div>
+                <span></span>
+                <div class="title">Codify</div>
+                <div class="info">Let&apos;s make coolest things in css</div>
+                <div class="type">Review</div>
+              </div>
+              <span class="number">
+                <span></span>
+                <span></span>
+              </span>
+            </li>
+            <li>
+              <div>
+                <span></span>
+                <div class="title">Codify</div>
+                <div class="info">Let&apos;s make coolest things in css</div>
+                <div class="type">Review</div>
+              </div>
+              <span class="number">
+                <span></span>
+                <span></span>
+              </span>
+            </li>
+            <li>
+              <div>
+                <span></span>
+                <div class="title">Codify</div>
+                <div class="info">Let&apos;s make coolest things in css</div>
+                <div class="type">Review</div>
+              </div>
+              <span class="number">
+                <span></span>
+                <span></span>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </MainBlog>
     </>
   );
 };

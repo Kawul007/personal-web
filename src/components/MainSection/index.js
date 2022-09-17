@@ -16,6 +16,7 @@ import MyGit from "../../images/mygit.png"
 import Mail from "../../images/mail.png"
 import Tele from "../../images/telphone .png"
 import Linked from "../../images/Linkedin.png"
+import FloatBtn from "../FloatBtn/index"
 const MainSection = () => {
   const [toggleState, setToggleState] = useState(1);
   const toggleTab = (index) => {
@@ -26,6 +27,7 @@ const MainSection = () => {
       <MainTitle>
         <a>Kai4234</a>
       </MainTitle>
+      <FloatBtn/>
       <MainProfile>
         <img src={ImageProfile}></img>
         <ul>
@@ -99,7 +101,7 @@ const MainSection = () => {
         </div>
       </MainContent>
       <MainBlog>
-        <h4 style={{ color: "white", marginTop: 45, marginLeft: 15 }}>
+        <h4 style={{ color: "black", marginTop: 45, marginLeft: 15 }}>
           Latest changes
         </h4>
         <div class="container">

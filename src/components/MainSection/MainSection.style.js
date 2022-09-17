@@ -139,13 +139,13 @@ export const MainBlog = styled.div`
   float: right;
   height: 100vh;
   width: 20%;
-  background-color: black;
+  background-color: white;
   .container ul {
     margin: 0;
     list-style: none;
     position: relative;
     padding: 5px 15px;
-    color: #fff;
+    color: #000;
     font-size: 13px;
   }
   .container ul:before {
@@ -153,7 +153,7 @@ export const MainBlog = styled.div`
     width: 1px;
     height: 100%;
     position: absolute;
-    border-left: 2px dashed #fff;
+    border-left: 2px dashed #000;
   }
   .container ul li {
     position: relative;
@@ -170,7 +170,7 @@ export const MainBlog = styled.div`
   .container ul li > span {
     width: 2px;
     height: 100%;
-    background: #fff;
+    background: #000;
     left: -30px;
     top: 0;
     position: absolute;
@@ -181,7 +181,7 @@ export const MainBlog = styled.div`
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    border: 2px solid #fff;
+    border: 2px solid #000;
     position: absolute;
     background: #229377;
     left: -5px;

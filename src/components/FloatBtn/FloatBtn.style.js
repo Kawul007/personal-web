@@ -6,8 +6,8 @@ position: fixed;
 width: 30px;
 height: 60px;
 /* background-color: aqua; */
-top: 50%;
-/* left: 95%; */
+top: 70%;
+left: 98%;
 visibility: ${({scrollScre}) => (scrollScre ? "visible" : "hidden")};
 z-index: 99999;
 `;

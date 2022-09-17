@@ -1,160 +1,99 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
-import { Link as LinkS } from "react-scroll";
-export const MainWrapper = styled.div`
-  width: 100%;
-  height: auto;
-  /* overflow: hidden; */
-`;
 
-export const MainNav = styled.ul`
-  float: left;
+export const MainTitle = styled.div`
   position: fixed;
-  margin-top: 200px;
-  width: 8%;
-`;
-// export const NavWrapper = styled.ul`
-//   display: block;
-//   text-align: center;
-//   list-style: none;
-//   height: 200px;
-//   width: 100%;
-//   margin-top: 40vh;
-//   background-color: aqua;
-// `;
-export const NavItem = styled.li`
-  margin: auto 0;
-  color: black;
   width: 100%;
-  text-align: center;
-
-  /* line-height: 50px; */
-  .icon {
-    width: 1.1em;
-    height: 1.1em;
-    fill: currentColor;
-    display: inline-block;
-  }
-
-  &.active {
-    color: #4eb9dc;
-    font-weight: 700;
-    border-bottom: 3px solid #20809f;
-  }
-  a {
-    text-decoration: none;
-    color: #000;
-    font-weight: 700;
-    align-items: center;
-  }
-  /* &:hover {
-    background-color: #4eb9dc;
-  } */
-`;
-export const NavLinks = styled(LinkS)`
-  color: #000;
-  font-weight: 700;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-  text-decoration: none;
-  padding: 10px 1rem;
-  height: 100%;
-  cursor: pointer;
-  .icon {
-    width: 1.1em;
-    height: 1.1em;
-    fill: currentColor;
-    display: inline-block;
-  }
-
-  &.active {
-    color: #4eb9dc;
-    font-weight: 700;
-
-    /* border-bottom: 3px solid #20809f; */
-  }
-`;
-export const MainContent = styled.div`
-  float: left;
-  width: 72%;
-  height: auto;
-  margin-left: 8%;
-  border-left: 1px solid gray;
-  /* background-color: yellow; */
+  height: 40px;
+  background-color: aqua;
+  z-index: 1000;
 `;
 export const MainProfile = styled.div`
-  float: right;
   position: fixed;
-  right: 0;
-  top: 0;
-  width: 20%;
-  height: 800px;
-  /* background-color: red; */
+  float: left;
+  height: 100vh;
+  width: 18%;
+  margin-top: 40px;
+  background-color: #071117;
 `;
-export const BlogSearch = styled.div`
-  width: 100%;
-  height: 100px;
-  box-sizing: border-box;
-  padding: 35px 2%;
 
-  #search {
-    float: left;
-    width: 82%;
-    height: 30px;
-    outline: none;
-    border: 1px solid #4eb9dc;
+export const MainContent = styled.div`
+  float: left;
+  height: 1200px;
+  width: 62%;
+  margin-left: 18%;
+  background-color: black;
+  .container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background: #f1f1f1;
+    margin-top: 40px;
+    z-index: 1;
   }
-  span {
-    display: inline-block;
-    width: 30px;
-    height: 32px;
-    border-top: 1px solid #4eb9dc;
-    border-bottom: 1px solid #4eb9dc;
-    border-right: 1px solid #4eb9dc;
-    line-height: 32px;
+
+  .bloc-tabs {
+    display: flex;
+  }
+  .tabs {
+    padding: 15px;
     text-align: center;
+    width: 80%;
+    font-size: 16px;
+    cursor: pointer;
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
   }
-`;
 
-export const ProfileImage = styled.div`
-  width: 100%;
-  height: 300px;
-  text-align: center;
-  /* background-color: aqua; */
-  img {
-    width: 60px;
-    height: 60px;
-    padding: 10px;
-  }
-  p{
+  .active-tabs {
+    border-bottom: 2px solid #2dd288;
     font-weight: 700;
   }
-  ul {
-    padding: 10px;
+
+  .active-tabs::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: calc(100% + 2px);
+    height: 5px;
   }
-  li {
+
+  button {
+    border: none;
+    background-color: #000;
+    color: #fff;
+  }
+  .content-tabs {
+    flex-grow: 1;
+  }
+  .content {
+    background: #000;
     box-sizing: border-box;
-    width: auto;
-    height: 30px;
-    list-style: none;
-    /* padding: 10px; */
-    font-size: 16px;
-    a {
-      text-decoration: none;
-      color: black;
-    }
-    /* span {
-      display: inline-block;
-      width: 50px;
-      height: 30px;
-    } */
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: white;
+  }
+  .content h2 {
+    padding: 0px 0 5px 0px;
+  }
+  /* .content p {
+    width: 100%;
+    height: 100%;
+  } */
+  .active-content {
+    display: block;
   }
 `;
-
-export const ProfileContent = styled.div`
-  width: 100%;
-  height: 500px;
-  background-color: beige;
+export const MainBlog = styled.div`
+  float: right;
+  height: 100vh;
+  width: 20%;
+  background-color: black;
 `;

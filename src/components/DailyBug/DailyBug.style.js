@@ -14,11 +14,12 @@ export const TopBug = styled.a`
   box-sizing: border-box;
   width: 100%;
   height: 200px;
+  border-bottom: 1px solid #eeeeee;
   &:hover {
    img{
     transform: scale(1.1);
    }
-   background-color:  #d9eff7;
+   /* background-color:  #d9eff7; */
   }
 `;
 export const BugImg = styled.img`
@@ -37,7 +38,7 @@ export const BugContent = styled.div`
   padding: 20px;
   h2 {
     font-size: 20px;
-    color: black;
+    color: #fff;
     font-weight: 700;
     /* text-indent: 2rem; */
   }
@@ -45,7 +46,7 @@ export const BugContent = styled.div`
     text-overflow: ellipsis;
     overflow: hidden;
     font-size: 14px;
-    color: black;
+    color: #fff;
     /*  */
   }
   
@@ -73,7 +74,7 @@ export const MoreBug = styled.div`
   }
   a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
     font-size: 16px !important;
     &:hover {
       color: #0074e8;

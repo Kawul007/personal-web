@@ -28,7 +28,7 @@ const DailyBug = () => {
             <BugImg src={item.image}></BugImg>
           </TopBug>
         ))}
-        <MoreBug>
+        {/* <MoreBug>
             <a>
               查看更多
               <span className="moreIcon">
@@ -37,7 +37,7 @@ const DailyBug = () => {
                 </svg>
               </span>
             </a>
-          </MoreBug>
+          </MoreBug> */}
       </BugWrapper>
     </>
   );

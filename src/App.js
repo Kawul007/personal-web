@@ -8,6 +8,7 @@ import BugPage from "./pages/BugPage";
 import ComingPage from "./pages/ComingPage";
 import MessagePage from "./pages/MessagePage";
 import UpdateLog from "./pages/UpdateLog";
+import BugDetailPage from "./pages/BugDetailPage";
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
           <Route path="/home" element={<HomePage />} />
           {/* <Route path="/mainpage" element={<MainPage />} /> */}
           <Route path="/blogPage" exact element={<BlogPage />} />
+          <Route path="/bugDetail" exact element={<BugDetailPage/>}/>
           <Route exact path="/bugPage" element={<BugPage />} />
           <Route path="/comingPage" element={<ComingPage />} />
           <Route path="/messagePage" element={<MessagePage />} />

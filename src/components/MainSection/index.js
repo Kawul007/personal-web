@@ -25,13 +25,13 @@ const MainSection = () => {
   return (
     <>
       <MainTitle>
-        <a>Kai4234</a>
+        <a href="/personal-web">Kai4234</a>
       </MainTitle>
       <FloatBtn/>
       <MainProfile>
-        <img src={ImageProfile}></img>
+        <img src={ImageProfile} id='image'></img>
         <ul>
-          <li><img src={MyGit}></img><a href="girhub.com/Kawul007">GitHube</a></li>
+          <li><img src={MyGit}></img><a href="https://github.com/Kawul007">GitHub</a></li>
           <li><img src={Mail}></img><a href="#">kai423455@gmail.com</a></li>
           <li><img src={Man}></img><a href="https://tw9tyeil4i.feishu.cn/docx/doxcnwoIOiKTJKug3GKNBHqZQ8d">Online-CV</a></li>
           <li><img src={Tele}></img><a href="#">+86 18306014646</a></li>

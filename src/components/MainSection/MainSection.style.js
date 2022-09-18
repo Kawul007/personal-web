@@ -15,6 +15,7 @@ export const MainTitle = styled.div`
     font-size: 16px;
     font-weight: 700;
     text-decoration: none;
+    color: White;
   }
 `;
 export const MainProfile = styled.div`
@@ -24,12 +25,12 @@ export const MainProfile = styled.div`
   width: 18%;
   margin-top: 40px;
   background-color: #071117;
-  img {
+  #image {
     display: inline-block;
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    margin: 5px 15px;
+    margin: 5px 30%;
   }
   ul li img {
     float: left;
@@ -41,7 +42,7 @@ export const MainProfile = styled.div`
   }
   ul li a {
     float: left;
-    margin-right: 10px;
+    margin-left: 10px;
     text-align: center;
     text-decoration: none;
     color:white;
@@ -51,6 +52,7 @@ export const MainProfile = styled.div`
     }
   }
   ul li {
+    /* margin-top: 50px; */
     height: 40px;
     width: 100%;
     text-align: center;

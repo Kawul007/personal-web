@@ -13,7 +13,7 @@ const DailyBug = () => {
     <>
       <BugWrapper id="bug">
         {BugItem.map((item) => (
-          <TopBug>
+          <TopBug href="/personal-web/bugDetail">
             <BugContent>
               {" "}
               <h3>{item.title}</h3>

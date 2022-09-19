@@ -35,7 +35,7 @@ const MainSection = () => {
           <li><img src={Mail}></img><a href="#">kai423455@gmail.com</a></li>
           <li><img src={Man}></img><a href="https://tw9tyeil4i.feishu.cn/docx/doxcnwoIOiKTJKug3GKNBHqZQ8d">Online-CV</a></li>
           <li><img src={Tele}></img><a href="#">+86 18306014646</a></li>
-          <li><img src={Linked}></img><a href="www.linkedin.com/in/kawul4234"> Linkedin</a></li>
+          <li><img src={Linked}></img><a href="WWW.linkedin.com/in/kawul4234">Linkedin</a></li>
         </ul>
       </MainProfile>
       <MainContent>

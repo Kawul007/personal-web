@@ -1,8 +1,8 @@
 @font-face {
   font-family: "iconfont"; /* Project id 3601832 */
-  src: url('iconfont.woff2?t=1663157770666') format('woff2'),
-       url('iconfont.woff?t=1663157770666') format('woff'),
-       url('iconfont.ttf?t=1663157770666') format('truetype');
+  src: url('iconfont.woff2?t=1663598577091') format('woff2'),
+       url('iconfont.woff?t=1663598577091') format('woff'),
+       url('iconfont.ttf?t=1663598577091') format('truetype');
 }
 
 .iconfont {
@@ -11,6 +11,42 @@
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pinglun:before {
+  content: "\e6ad";
+}
+
+.icon-yueduxiao:before {
+  content: "\e87d";
+}
+
+.icon-shijian:before {
+  content: "\e8a9";
+}
+
+.icon-pinglun1:before {
+  content: "\e663";
+}
+
+.icon-fabiaowenzhang:before {
+  content: "\e648";
+}
+
+.icon-category:before {
+  content: "\e604";
+}
+
+.icon-beikongshuiwupingtaimenhu-tubiao_shuzishuangbaotai:before {
+  content: "\e62c";
+}
+
+.icon-gengxin:before {
+  content: "\e74b";
+}
+
+.icon-changdu:before {
+  content: "\e8a1";
 }
 
 .icon-biaoqian:before {

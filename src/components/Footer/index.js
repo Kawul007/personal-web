@@ -25,7 +25,7 @@ const toggleHome = () => {
           <FooterLinksWrapper>
             <FooterLinksItems>
               {/* <FooterLinksTite>About Me</FooterLinksTite> */}
-              <FooterLink to="/" onClick={toggleHome}><BiArrowToTop style={{width:50,height:50}} /></FooterLink>
+              {/* <FooterLink to="/" onClick={toggleHome}><BiArrowToTop style={{width:50,height:50}} /></FooterLink> */}
               <FooterLink to="/https://www.youtube.com/"><ImYoutube2 style={{width:50,height:50}}/></FooterLink>
               <FooterLink to="/https://www.google.com/"><FcGoogle style={{width:50,height:50}}/></FooterLink>
               <FooterLink to="/https://github.com/ComeAndSeeMe"><FaGithubSquare style={{width:50,height:50}}/></FooterLink>

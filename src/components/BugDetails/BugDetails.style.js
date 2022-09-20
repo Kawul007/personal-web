@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const BugDetailWrapper = styled.div`
   width: 100%;
-  height: 1300px;
+  height: auto;
 `;
 export const BugDetailImage = styled.div`
   display: inline-block;
@@ -15,6 +15,7 @@ export const BugDetailImage = styled.div`
     width: 100%;
     height: 100%;
     background-size: cover;
+    vertical-align: top;
   }
   .demo {
     position: absolute;
@@ -40,39 +41,48 @@ export const BugDetailImage = styled.div`
 export const BugImageInfo = styled.div`
   position: absolute;
   width: 90%;
-  height: 1000px;
+  /* height: 1000px; */
   /* margin-top: -100px; */
   /* padding: 0px;
   margin: 0px; */
+  top: 300px;
   margin: 0px 5%;
-  text-align: center;
+  /* text-align: center; */
   color: white;
   z-index: 1111;
-  background-color: black;
 `;
 export const BugDetailContent = styled.div`
   float: left;
   width: 80%;
-  height: 100%;
-  #intro{
+  height: auto;
+
+  background-color: aqua;
+  #intro {
+    margin: 0;
+    padding: 0;
     width: 100%;
-    height: 250px;
+    height: 100vh;
     background-color: blue;
   }
-  #logic{
+  #logic {
     width: 100%;
-    height: 250px;
+    height: 100vh;
     background-color: violet;
   }
-  #process{
+  #process {
     width: 100%;
-    height: 250px;
+    height: 100vh;
     background-color: green;
   }
-  #all{
+  #all {
     width: 100%;
-    height: 250px;
-    background-color:greenyellow;
+    height: 100vh;
+    background-color: greenyellow;
+  }
+  h4 {
+    padding: 30px;
+    margin-block-start: 0;
+    margin-block-end: 0;
   }
 `;
 
@@ -80,14 +90,25 @@ export const BugDetailRecomend = styled.div`
   position: sticky;
   float: right;
   width: 20%;
-  height: 1000px;
+  height: 100vh;
   top: 0px;
-  background-color: yellow;
+  left: 0;
+  background-color: #d7d7d7;
   h3 {
+    width: fit-content;
     color: #000;
     font-weight: 700;
+    padding-left: 20px;
   }
-  ul li{
+  ul li {
+    width: fit-content;
+    padding-left: 20px;
+    font-size: 18px;
     list-style: none;
+  }
+  ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
   }
 `;

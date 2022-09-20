@@ -57,10 +57,18 @@ const BugDetails = () => {
       </BugDetailImage>
       <BugImageInfo>
         <BugDetailContent>
-          <div id="intro"></div>
-          <div id="logic"></div>
-          <div id="process"></div>
-          <div id="all"></div>
+          <div id="intro">
+            <h4>项目概述</h4>
+          </div>
+          <div id="logic">
+            <h4>实现逻辑</h4>
+          </div>
+          <div id="process">
+            <h4>实现过程</h4>
+          </div>
+          <div id="all">
+            <h4>综述</h4>
+          </div>
         </BugDetailContent>
         <BugDetailRecomend>
           <h3>
@@ -69,10 +77,18 @@ const BugDetails = () => {
             &nbsp;目录
           </h3>
           <ul>
-            <li><a href="#intro">项目概述</a></li>
-            <li><a href="#logic">实现逻辑</a></li>
-            <li><a href="#process">实现过程</a></li>
-            <li><a href="#all">综述</a></li>
+            <li>
+              <a href="#intro">1.项目概述</a>
+            </li>
+            <li>
+              <a href="#logic">2.实现逻辑</a>
+            </li>
+            <li>
+              <a href="#process">3.实现过程</a>
+            </li>
+            <li>
+              <a href="#all">4.综述</a>
+            </li>
           </ul>
         </BugDetailRecomend>
       </BugImageInfo>

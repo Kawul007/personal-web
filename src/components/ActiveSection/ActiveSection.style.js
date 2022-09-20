@@ -45,7 +45,7 @@ export const SectionContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 700px;
+  height: 750px;
   position: relative;
   z-index: 1;
 `;
@@ -90,20 +90,17 @@ export const SectionContent = styled.div`
   /* background-color: black;
   opacity: 0.4; */
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 700;
   margin-top: 400px;
   text-align: center;
   color: white;
   /* z-index: 1000; */
-  h3 {
-    font-size: 30px;
-    color: red;
-  }
-  @media screen and (min-width: 1160px) {
+ 
+  /* @media screen and (min-width: 1160px) {
     h3 {
       font-size: 20px;
     }
-  }
+  } */
 `;
 
 export const SectionItem = styled.div`

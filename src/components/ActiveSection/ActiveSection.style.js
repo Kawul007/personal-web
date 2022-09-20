@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import {Link as LinkS } from 'react-scroll';
+import { Link as LinkS } from "react-scroll";
 
 export const IconLink = styled(LinkS)`
   color: white;
@@ -42,11 +42,10 @@ export const IconLink = styled(LinkS)`
 export const SectionContainer = styled.div`
   background: #0c0c0c;
   display: flex;
-  
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 900px;
+  height: 700px;
   position: relative;
   z-index: 1;
 `;
@@ -60,6 +59,9 @@ export const SectionBackground = styled.div`
   width: 100%;
   height: 100%;
   overflow: hidden;
+  @media screen and (min-width: 1160px) {
+    transition: 0.8s all ease;
+  }
 `;
 
 export const BackgroundVedio = styled.video`
@@ -70,7 +72,15 @@ export const BackgroundVedio = styled.video`
   background: #000;
   background-color: black;
   opacity: 0.4;
-  
+`;
+export const BackgroundImage = styled.img`
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  background: #000;
+  background-color: black;
+  opacity: 0.6;
 `;
 export const SectionContent = styled.div`
   width: 100%;
@@ -85,6 +95,15 @@ export const SectionContent = styled.div`
   text-align: center;
   color: white;
   /* z-index: 1000; */
+  h3 {
+    font-size: 30px;
+    color: red;
+  }
+  @media screen and (min-width: 1160px) {
+    h3 {
+      font-size: 20px;
+    }
+  }
 `;
 
 export const SectionItem = styled.div`
@@ -123,18 +142,19 @@ export const SectionItem = styled.div`
     50% {
       border-color: currentColor;
     }
-  } 
-   h3 {
-    width: 30ch; /* 文本长度 */
+  }
+  h3 {
+    /* width: 30ch; 文本长度 */
     overflow: hidden;
     white-space: nowrap;
     border-right: 0.06em solid transparent;
     animation: typing 6s steps(30), caret 1s steps(1) infinite;
     font-family: Consolas, Monaco, monospace;
   }
-  @media screen and (max-width:1160px) {
-         transition: 0.8s all ease ;
-   } 
+  @media screen and (min-width: 1160px) {
+    transition: 0.8s all ease;
+    font-size: 40px;
+  }
 `;
 
 export const SectionIcon = styled.div`

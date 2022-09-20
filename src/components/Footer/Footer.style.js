@@ -8,6 +8,9 @@ width: 100%; */
 bottom:0px; */
 width: 100%;
 background-color: black;
+@media screen and (max-width:1160px){
+    transition: 0.8s all ease;
+}
 `;
 
 export const FooterWrapper = styled.div`
@@ -42,7 +45,7 @@ display: inline-block;
 align-items: flex-start; */
 margin: 16px;
 text-align: left;
-width: 460px;
+/* width: 460px; */
 box-sizing: border-box;
 color: #fff;
 @media screen and(max-width:1160px) {

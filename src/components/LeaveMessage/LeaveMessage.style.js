@@ -12,7 +12,7 @@ export const NoteContainer = styled.div`
 
   @media screen and (max-width: 1160px) {
     transition: 0.8s all ease;
-    height: 1600px;
+    height: 1550px;
   }
 `;
 
@@ -101,16 +101,17 @@ export const NoteWrapper = styled.div`
   }
 `;
 export const CardContainer = styled.div`
-  display: inline-block;
+display: inline-block;
   width: 200px;
   height: 50px;
-  margin: 10px 20px;
+  padding: 25px;
+  margin: 10px auto;
+  text-align: center;
   .p {
     margin-bottom: 0;
   }
   @media screen and (max-width: 1160px) {
-    width: 80%;
-    margin: 100px 25%;
+    padding: 80px;
   }
 `;
 
@@ -119,7 +120,7 @@ export const Message = styled.div`
   width: 250px;
   height: 50px;
   font-size: 20px !important;
-  margin-top: 180px;
+  margin-top: 80px;
   justify-content: center;
   /* background-color: antiquewhite; */
   color: black;

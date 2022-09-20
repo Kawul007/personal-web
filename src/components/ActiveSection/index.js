@@ -11,11 +11,12 @@ import {
   SectionItem,
   SectionIcon,
   IconLink,
+  BackgroundImage,
 } from "./ActiveSection.style";
 // import EasyTyper from "easy-typer-js";
 import TypeWriter from "typewriter-effect";
 import Video from "../../videos/simpo.mp4";
-import BgPic from "../../images/bg.jpg";
+import BgPic from "../../images/mario.gif";
 
 // "记得生活从不会对弱者同情！"
 // let data = ["Don't Squander It Thinking Do! ","想要的都拥有，得不到的将释怀","面朝大海，春暖花开！"];
@@ -63,7 +64,8 @@ const ActiveSection = () => {
   return (
     <SectionContainer id="home">
       <SectionBackground>
-        <BackgroundVedio  autoPlay loop muted src={Video} type="vedieo/mp4" />
+        {/* <BackgroundVedio  autoPlay loop muted src={Video} type="vedieo/mp4" /> */}
+        <BackgroundImage src={BgPic}></BackgroundImage>
         {/* <Spline scene="https://prod.spline.design/fkEJWq0QuvVeb23Y/scene.splinecode"></Spline> */}
       </SectionBackground>
       <SectionContent>

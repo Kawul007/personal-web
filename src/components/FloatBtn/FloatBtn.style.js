@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
 export const FloatBtnWrapper = styled.div`
-float: right;
+float:left;
 position: fixed;
 width: 30px;
 height: 60px;
 /* background-color: aqua; */
 top: 70%;
-left: 98%;
+/* left: 98%; */
 visibility: ${({scrollScre}) => (scrollScre ? "visible" : "hidden")};
 z-index: 99999;
 `;

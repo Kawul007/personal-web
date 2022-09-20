@@ -15,7 +15,7 @@ export const CardItem = styled.ul`
   list-style: none;
   @media screen and (max-width: 1160px) {
     /* height: 1200px; */
-    width: 100%;
+    /* width: 100%; */
   }
 `;
 export const Cards = styled.li`

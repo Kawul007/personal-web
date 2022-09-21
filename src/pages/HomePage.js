@@ -7,6 +7,7 @@ import TimeLine from "../components/TimeLine";
 import LeaveMessage from "../components/LeaveMessage";
 import Footer from "../components/Footer";
 import FloatBtn from "../components/FloatBtn";
+import MainSection from "../components/MainSection";
 const HomePage = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
@@ -17,10 +18,11 @@ const HomePage = () => {
       <MobileBar isOpen={isOpen} toggle={toggle} />
       <NavBar toggle={toggle} />
       <ActiveSection />
-      <BlogSection />
+      {/* <BlogSection />
       <TimeLine />
       <LeaveMessage />
-      <Footer />
+      <Footer /> */}
+      <MainSection />
       <FloatBtn></FloatBtn>
       {/* <div></div> */}
     </>

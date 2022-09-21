@@ -2,7 +2,8 @@ body {
   margin: 0;
   scroll-behavior: smooth;
   /* background-color: rgb(220, 244, 236); */
-  background: linear-gradient(rgb(255, 255, 255), 10%, rgb(255, 255, 255));
+  
+  background: linear-gradient(rgb(193, 233, 248), 10%, rgb(219, 212, 249));
   padding-inline-start: 0px !important;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -13,6 +14,12 @@ body {
 html {
   overflow-y: scroll;
   scroll-behavior: smooth;
+}
+ul{
+ 
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+  
 }
 ul,
 li {

@@ -91,9 +91,14 @@ export const SectionContent = styled.div`
   opacity: 0.4; */
   font-size: 30px;
   font-weight: 700;
-  margin-top: 400px;
+  margin-top: 500px;
   text-align: center;
   color: white;
+  h3{
+    font-size: 1.0em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
   /* z-index: 1000; */
  
   /* @media screen and (min-width: 1160px) {
@@ -112,7 +117,7 @@ export const SectionItem = styled.div`
   overflow: hidden;
   text-align: center;
   align-items: center;
-  font-size: 30px;
+  font-size: 10px;
   font-weight: 700;
   font-family: sans-serif;
   /* margin: 0 auto; */
@@ -150,12 +155,12 @@ export const SectionItem = styled.div`
   }
   @media screen and (min-width: 1160px) {
     transition: 0.8s all ease;
-    font-size: 40px;
+    font-size: 25px;
   }
 `;
 
 export const SectionIcon = styled.div`
-  margin-top: 200px;
+  margin-top: 400px;
   display: block;
   position: relative;
   overflow: hidden;

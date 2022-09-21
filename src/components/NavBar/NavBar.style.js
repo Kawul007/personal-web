@@ -6,8 +6,8 @@ export const Nav = styled.nav`
   background: ${({ scrollNav }) => (scrollNav ? "#000" : "transparent")};
   /* opacity: 0.5; */
   /* background-color: #1c776b; */
-  height: 80px;
-  margin-top: -80px;
+  height: 60px;
+  margin-top: -60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,7 +24,7 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  height: 80px;
+  height: 60px;
   z-index: 1;
   width: 100%;
   max-width: 1100px;
@@ -46,7 +46,7 @@ export const MobileIcon = styled.div`
 `;
 export const NavHeader = styled.div`
   width: 100%;
-  height: 80px;
+  height: 60px;
 `;
 export const NavLogo = styled(LinkR)`
   float: left;
@@ -57,13 +57,13 @@ export const NavLogo = styled(LinkR)`
   display: flex;
   align-items: center;
   width: 50px;
-  height: 80px;
+  height: 60px;
   font-weight: bold;
   text-decoration: none;
 `;
 export const NavMenu = styled.ul`
   float: right;
-  height: 80px;
+  height: 60px;
   overflow: hidden;
   list-style: none;
 
@@ -74,7 +74,7 @@ export const NavMenu = styled.ul`
 
 export const NavItem = styled.li`
   float: left;
-  height: 80px;
+  height: 60px;
   display: flex;
   font-size: 20px;
   /* padding: 0px !important; */
@@ -103,7 +103,7 @@ export const NavLinks = styled(LinkS)`
     color: #4eb9dc;
     font-weight: 700;
 
-    /* border-bottom: 3px solid #20809f; */
+    /* border-bottom: 3px solid #20609f; */
   }
 `;
 

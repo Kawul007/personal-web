@@ -7,35 +7,50 @@ import {
   MainProfile,
   ContentNav,
   ContentDetail,
+  MainContainer,
 } from "./MainSection.style";
 import DailyBug from "../DailyBug/index";
 import DailyTalk from "../DailyTalk/index";
-import ImageProfile from "../../images/profile.png"
-import Man from "../../images/man.png"
-import MyGit from "../../images/mygit.png"
-import Mail from "../../images/mail.png"
-import Tele from "../../images/telphone .png"
-import Linked from "../../images/Linkedin.png"
-import FloatBtn from "../FloatBtn/index"
+import ImageProfile from "../../images/profile.png";
+import Man from "../../images/man.png";
+import MyGit from "../../images/mygit.png";
+import Mail from "../../images/mail.png";
+import Tele from "../../images/telphone .png";
+import Linked from "../../images/Linkedin.png";
+import FloatBtn from "../FloatBtn/index";
 const MainSection = () => {
   const [toggleState, setToggleState] = useState(1);
   const toggleTab = (index) => {
     setToggleState(index);
   };
   return (
-    <>
-      <MainTitle>
-        <a href="/personal-web">Kai4234</a>
-      </MainTitle>
-      <FloatBtn/>
+    <MainContainer id="blogs">
       <MainProfile>
-        <img src={ImageProfile} id='image'></img>
+        <img src={ImageProfile} id="image"></img>
         <ul>
-          <li><img src={MyGit}></img><a href="https://github.com/Kawul007">GitHub</a></li>
-          <li><img src={Mail}></img><a href="#">kai423455@gmail.com</a></li>
-          <li><img src={Man}></img><a href="https://tw9tyeil4i.feishu.cn/docx/doxcnwoIOiKTJKug3GKNBHqZQ8d">Online-CV</a></li>
-          <li><img src={Tele}></img><a href="#">+86 18306014646</a></li>
-          <li><img src={Linked}></img><a href="WWW.linkedin.com/in/kawul4234">Linkedin</a></li>
+          <li>
+            <a href="https://github.com/Kawul007">
+              <img src={MyGit}></img>
+            </a>
+          </li>
+          <li>
+            <img src={Mail} title="kai423455@gmail.com"></img>
+          </li>
+          <li>
+            <a href="https://tw9tyeil4i.feishu.cn/docx/doxcnwoIOiKTJKug3GKNBHqZQ8d">
+              {" "}
+              <img src={Man}></img>
+            </a>
+          </li>
+          <li>
+            <img src={Tele} title="18306014646"></img>
+          </li>
+          <li>
+            <a href="www.linkedin.com/in/kawul4234">
+              {" "}
+              <img src={Linked}></img>
+            </a>
+          </li>
         </ul>
       </MainProfile>
       <MainContent>
@@ -72,7 +87,6 @@ const MainSection = () => {
                 toggleState === 1 ? "content  active-content" : "content"
               }
             >
-              {/* <h2>Content 1</h2> */}
               <DailyBug />
             </div>
             <div
@@ -80,7 +94,6 @@ const MainSection = () => {
                 toggleState === 2 ? "content  active-content" : "content"
               }
             >
-              {/* <h2>Content 2</h2> */}
               <DailyTalk />
             </div>
             <div
@@ -101,9 +114,7 @@ const MainSection = () => {
         </div>
       </MainContent>
       <MainBlog>
-        <h4 style={{ color: "black", marginTop: 45, marginLeft: 15 }}>
-          Latest changes
-        </h4>
+        <h4 style={{ color: "black", marginLeft: 15 }}>Latest changes</h4>
         <div class="container">
           <ul>
             <li>
@@ -167,7 +178,7 @@ const MainSection = () => {
           </ul>
         </div>
       </MainBlog>
-    </>
+    </MainContainer>
   );
 };
 

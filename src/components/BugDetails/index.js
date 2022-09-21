@@ -16,8 +16,11 @@ import Img03 from "../../images/blog-img23.png";
 import Img04 from "../../images/blog-img24.png";
 import Img05 from "../../images/blog-img22.png";
 import "../../iconfont.css";
+import Navbar from "../NavBar";
 const BugDetails = () => {
   return (
+    <>
+    <Navbar/>
     <BugDetailWrapper>
       <BugDetailImage>
         <div className="back">
@@ -167,6 +170,7 @@ const BugDetails = () => {
       </BugImageInfo>
       <FloatBtn />
     </BugDetailWrapper>
+    </>
   );
 };
 

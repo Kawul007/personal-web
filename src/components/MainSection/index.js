@@ -18,6 +18,7 @@ import Mail from "../../images/mail.png";
 import Tele from "../../images/telphone .png";
 import Linked from "../../images/Linkedin.png";
 import FloatBtn from "../FloatBtn/index";
+import Footer from "../Footer/index"
 const MainSection = () => {
   const [toggleState, setToggleState] = useState(1);
   const toggleTab = (index) => {
@@ -30,7 +31,7 @@ const MainSection = () => {
         <ul>
           <li>
             <a href="https://github.com/Kawul007">
-              <img src={MyGit}></img>
+              <img src={MyGit} title="Follow Me On Github"></img>
             </a>
           </li>
           <li>
@@ -38,20 +39,84 @@ const MainSection = () => {
           </li>
           <li>
             <a href="https://tw9tyeil4i.feishu.cn/docx/doxcnwoIOiKTJKug3GKNBHqZQ8d">
-              {" "}
-              <img src={Man}></img>
+              <img src={Man} title="Online-CV"></img>
             </a>
           </li>
           <li>
-            <img src={Tele} title="18306014646"></img>
+            <img src={Tele} title="My Phone +86-18306014646"></img>
           </li>
+
           <li>
             <a href="www.linkedin.com/in/kawul4234">
-              {" "}
-              <img src={Linked}></img>
+              <img src={Linked} title="Follow Me on LinkedIN"></img>
             </a>
           </li>
         </ul>
+        <MainBlog>
+        <h4 style={{ color: "black", marginLeft: 15 }}>Latest changes</h4>
+        <div class="container">
+          <ul>
+            <li>
+              <span></span>
+              <div>
+                <div class="title">Codify</div>
+                <div class="info">Let&apos;s make coolest things in css</div>
+                <div class="type">Presentation</div>
+              </div>
+            </li>
+            <li>
+              <div>
+                <span></span>
+                <div class="title">Codify</div>
+                <div class="info">
+                  Let&apos;s make coolest things in javascript
+                </div>
+                <div class="type">Presentation</div>
+              </div>
+              <span class="number">
+                <span></span>
+                <span></span>
+              </span>
+            </li>
+            {/* <li>
+              <div>
+                <span></span>
+                <div class="title">Codify</div>
+                <div class="info">Let&apos;s make coolest things in css</div>
+                <div class="type">Review</div>
+              </div>
+              <span class="number">
+                <span></span>
+                <span></span>
+              </span>
+            </li>
+            <li>
+              <div>
+                <span></span>
+                <div class="title">Codify</div>
+                <div class="info">Let&apos;s make coolest things in css</div>
+                <div class="type">Review</div>
+              </div>
+              <span class="number">
+                <span></span>
+                <span></span>
+              </span>
+            </li>
+            <li>
+              <div>
+                <span></span>
+                <div class="title">Codify</div>
+                <div class="info">Let&apos;s make coolest things in css</div>
+                <div class="type">Review</div>
+              </div>
+              <span class="number">
+                <span></span>
+                <span></span>
+              </span>
+            </li> */}
+          </ul>
+        </div>
+      </MainBlog>
       </MainProfile>
       <MainContent>
         <div className="container">
@@ -113,71 +178,8 @@ const MainSection = () => {
           </div>
         </div>
       </MainContent>
-      <MainBlog>
-        <h4 style={{ color: "black", marginLeft: 15 }}>Latest changes</h4>
-        <div class="container">
-          <ul>
-            <li>
-              <span></span>
-              <div>
-                <div class="title">Codify</div>
-                <div class="info">Let&apos;s make coolest things in css</div>
-                <div class="type">Presentation</div>
-              </div>
-            </li>
-            <li>
-              <div>
-                <span></span>
-                <div class="title">Codify</div>
-                <div class="info">
-                  Let&apos;s make coolest things in javascript
-                </div>
-                <div class="type">Presentation</div>
-              </div>
-              <span class="number">
-                <span></span>
-                <span></span>
-              </span>
-            </li>
-            <li>
-              <div>
-                <span></span>
-                <div class="title">Codify</div>
-                <div class="info">Let&apos;s make coolest things in css</div>
-                <div class="type">Review</div>
-              </div>
-              <span class="number">
-                <span></span>
-                <span></span>
-              </span>
-            </li>
-            <li>
-              <div>
-                <span></span>
-                <div class="title">Codify</div>
-                <div class="info">Let&apos;s make coolest things in css</div>
-                <div class="type">Review</div>
-              </div>
-              <span class="number">
-                <span></span>
-                <span></span>
-              </span>
-            </li>
-            <li>
-              <div>
-                <span></span>
-                <div class="title">Codify</div>
-                <div class="info">Let&apos;s make coolest things in css</div>
-                <div class="type">Review</div>
-              </div>
-              <span class="number">
-                <span></span>
-                <span></span>
-              </span>
-            </li>
-          </ul>
-        </div>
-      </MainBlog>
+      
+      <Footer/>
     </MainContainer>
   );
 };

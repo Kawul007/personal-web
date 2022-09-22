@@ -85,13 +85,13 @@ export const BackgroundImage = styled.img`
 export const SectionContent = styled.div`
   width: 100%;
   position: relative;
-  height: 100%;
+  height: 400px;
   overflow: hidden;
   /* background-color: black;
   opacity: 0.4; */
   font-size: 30px;
   font-weight: 700;
-  margin-top: 500px;
+  margin-top: 200px;
   text-align: center;
   color: white;
   h3{

@@ -2,7 +2,9 @@ import styled from "styled-components";
 
 export const BugDetailWrapper = styled.div`
   width: 100%;
-  height: auto;
+  height: fit-content;
+position: relative;
+  
 `;
 export const BugDetailImage = styled.div`
   display: inline-block;

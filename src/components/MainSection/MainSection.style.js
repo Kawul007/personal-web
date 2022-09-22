@@ -1,20 +1,26 @@
 import styled from "styled-components";
-export const MainContainer = styled.div``;
+export const MainContainer = styled.div`
+  position: relative;
+  width: 100%;
+  height: 100vh;
+`;
 export const MainProfile = styled.div`
-  float: left;
+  display: inline-block;
+  position: sticky;
+  top: 55px;
+  bottom: 0;
   width: 18%;
-  height: 600px;
+  height: 100vh;
   margin-left: 1%;
   margin-top: 40px;
   background-color: white;
   box-shadow: 5px 5px 5px grey;
   z-index: 111;
   #image {
-    display: inline-block;
+    display: block;
     width: 70px;
     height: 70px;
-    /* border-radius: 50%; */
-    margin: 55px 30%;
+    margin: 50px auto;
   }
   ul {
     margin-block-start: 0em;
@@ -22,43 +28,40 @@ export const MainProfile = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
   }
   ul li img {
-    /* float: left; */
     display: inline-block;
     height: 20px;
     width: 20px;
   }
   ul li a {
-    float: left;
-    /* margin-left: 10px; */
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    &:hover {
-      text-decoration: underline;
-      color: #02a7dd;
-    }
+    display: inline-block;
+    width: 25px;
+    height: 25px;
   }
   ul li {
     display: inline-block;
     /* margin-top: 50px; */
-    height: 20px;
-    width: 20px;
+    /* height: 30px;
+    width: 30px; */
     text-align: center;
     margin: 0px 10px;
     list-style: none;
-    color: white;
+    color: #000;
     font-weight: 700;
+    /* backface-visibility: hidden; */
+    /* &:hover{
+      transform:translateY(-50%);
+    } */
   }
 `;
 export const MainContent = styled.div`
   float: left;
-  width: 60%;
+  width: 70%;
   height: fit-content;
-  margin-left: 1%;
+  margin-left: 5%;
   margin-top: 40px;
+  margin-bottom: 40px;
   background-color: white;
   box-shadow: 5px 5px 5px grey;
 
@@ -127,14 +130,12 @@ export const MainContent = styled.div`
   }
 `;
 export const MainBlog = styled.div`
-  display: inline-block;
-  width: 18%;
-  height: 800px;
-  margin-left: 1%;
+  width: 100%;
+  height: fit-content;
   margin-top: 40px;
   background-color: white;
-  box-shadow: 5px 5px 5px grey;
   .container ul {
+    display: block;
     margin: 0;
     list-style: none;
     position: relative;

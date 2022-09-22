@@ -81,6 +81,7 @@ const ActiveSection = () => {
               autoStart: true,
               loop: true,
             }}
+            
             onInit={(TypeWriter) => {
               TypeWriter.typeString("Don't Squander It Thinking. Do!")
                 .pauseFor(2000)

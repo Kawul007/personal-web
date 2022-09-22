@@ -17,6 +17,7 @@ import Img04 from "../../images/blog-img24.png";
 import Img05 from "../../images/blog-img22.png";
 import "../../iconfont.css";
 import Navbar from "../NavBar";
+import Footer from "../Footer/index"
 const BugDetails = () => {
   return (
     <>
@@ -169,6 +170,7 @@ const BugDetails = () => {
         </BugDetailRecomend>
       </BugImageInfo>
       <FloatBtn />
+      <Footer/>
     </BugDetailWrapper>
     </>
   );

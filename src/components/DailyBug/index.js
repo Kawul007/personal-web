@@ -7,6 +7,7 @@ import {
   MoreBug,
   BugImg,
 } from "../../components/DailyBug/DailyBug.style";
+
 import BugItem from "./BugItem";
 const DailyBug = () => {
   return (
@@ -34,6 +35,7 @@ const DailyBug = () => {
             </a>
           </MoreBug> */}
       </BugWrapper>
+
     </>
   );
 };

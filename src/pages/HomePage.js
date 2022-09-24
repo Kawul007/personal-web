@@ -8,6 +8,7 @@ import LeaveMessage from "../components/LeaveMessage";
 import Footer from "../components/Footer";
 import FloatBtn from "../components/FloatBtn";
 import MainSection from "../components/MainSection";
+import TodoForm from "../components/TodoList/TodoForm";
 const HomePage = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
@@ -24,6 +25,7 @@ const HomePage = () => {
       */}
       <MainSection />
       <FloatBtn></FloatBtn>
+      <TodoForm/>
       <Footer />
       {/* <div></div> */}
     </>

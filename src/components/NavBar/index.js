@@ -61,7 +61,7 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="blogs"
+                  to="blog"
                   smooth={true}
                   duration={500}
                   spy={true}
@@ -76,23 +76,6 @@ const Navbar = ({ toggle }) => {
                   精选博客
                 </NavLinks>
               </NavItem>
-              {/* <NavItem>
-                <NavLinks
-                  to="technical"
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact={true}
-                  offset={-80}
-                >
-                  <AiOutlineTool />
-                  <svg className="icon" aria-hidden="true">
-                    <use xlinkHref="#icon-a-rilipixel_huaban1"></use>
-                  </svg>
-                  &nbsp;
-                  个人经历
-                </NavLinks>
-              </NavItem> */}
               <NavItem>
                 <NavLinks
                   to="messages"

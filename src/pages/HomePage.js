@@ -19,15 +19,11 @@ const HomePage = () => {
       <MobileBar isOpen={isOpen} toggle={toggle} />
       <NavBar toggle={toggle} />
       <ActiveSection />
-      {/* <BlogSection />
-      <TimeLine />
-      <LeaveMessage />
-      */}
       <MainSection />
-      <FloatBtn></FloatBtn>
-      <TodoForm/>
+      <FloatBtn />
+      {/* <TodoForm/> */}
+      <LeaveMessage />
       <Footer />
-      {/* <div></div> */}
     </>
   );
 };

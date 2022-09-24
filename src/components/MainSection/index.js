@@ -25,7 +25,7 @@ const MainSection = () => {
     setToggleState(index);
   };
   return (
-    <MainContainer id="blogs">
+    <MainContainer id="blog">
       {/* <MainProfile>
         <img src={ImageProfile} id="image"></img>
         <ul>

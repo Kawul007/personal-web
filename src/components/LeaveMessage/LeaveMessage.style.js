@@ -120,7 +120,7 @@ export const Message = styled.div`
   width: 250px;
   height: 50px;
   font-size: 20px !important;
-  margin-top: 80px;
+  margin-top: 150px;
   justify-content: center;
   /* background-color: antiquewhite; */
   color: black;

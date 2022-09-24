@@ -17,11 +17,11 @@ export const TopBug = styled.a`
   border-bottom: 1px solid #eeeeee;
   &:hover {
     /* border: 1px solid #2dae8a; */
-   p,h3{
+   /* p,h3{
     font-weight: 700;
-   }
+   } */
     img {
-      transform: scale(1.1);
+      transform: scale(0.9);
     }
     /* background-color:  #d9eff7; */
   }
@@ -43,7 +43,7 @@ export const BugContent = styled.div`
   h3 {
     font-size: 20px;
     color: #000;
-    font-weight: 500;
+    font-weight: 700;
     /* text-indent: 2rem; */
   }
   p {

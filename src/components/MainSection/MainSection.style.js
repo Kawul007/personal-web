@@ -2,13 +2,13 @@ import styled from "styled-components";
 export const MainContainer = styled.div`
   position: relative;
   width: 100%;
-  height: 300vh;
+  height: max-content;
 `;
 
 export const MainContent = styled.div`
   float: left;
   width: 80%;
-  height: 300vh;
+  height: max-content;
   margin-left: 10%;
   margin-top: 40px;
   margin-bottom: 40px;

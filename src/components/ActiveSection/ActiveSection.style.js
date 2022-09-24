@@ -91,7 +91,7 @@ export const SectionContent = styled.div`
   opacity: 0.4; */
   font-size: 30px;
   font-weight: 700;
-  margin-top: 200px;
+  margin-top: 100px;
   text-align: center;
   color: white;
   h3{

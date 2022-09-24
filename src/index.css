@@ -15,6 +15,13 @@ html {
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
+/* svg{
+  stroke: currentcolor;
+  fill: currentcolor;
+  stroke-width: 0;
+  height: 0.8em;
+  width: 0.8em;
+} */
 ul{
  
     margin-block-start: 0em;

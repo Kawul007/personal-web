@@ -39,14 +39,22 @@ let BugItem = [
         info:'JavaScript中的this是让很多开发者头疼的地方，而this关键字又是一个非常重要的语法点。毫不夸张地说，不理解它的含义，大部分开发任务都无法完成。',
         date:'2022/07/13 5:44', 
     },
-    // {
-    //     id:6,
-    //     title:"本站搭建技术+思路+未来提升和完善相关内容公告",
-    //     type:'前端相关',
-    //     image:require('../../images/blog-img05.jpg'),
-    //     info:'本站主要是用来记录个人学习前后端以及语言相关的知识，主要使用技术有：前端React、Js、HTML、CSS等；后端SpringBoot、Mybatis-Plus、MYSQL等等',
-    //     date:'2022/09/13 15:44', 
-    // },
+    {
+        id:6,
+        title:"本站搭建技术+思路+未来提升和完善相关内容公告",
+        type:'前端相关',
+        image:require('../../images/blog-img05.jpg'),
+        info:'本站主要是用来记录个人学习前后端以及语言相关的知识，主要使用技术有：前端React、Js、HTML、CSS等；后端SpringBoot、Mybatis-Plus、MYSQL等等',
+        date:'2022/09/13 15:44', 
+    },
+    {
+        id:6,
+        title:"本站搭建技术+思路+未来提升和完善相关内容公告",
+        type:'前端相关',
+        image:require('../../images/blog-img09.jpg'),
+        info:'本站主要是用来记录个人学习前后端以及语言相关的知识，主要使用技术有：前端React、Js、HTML、CSS等；后端SpringBoot、Mybatis-Plus、MYSQL等等',
+        date:'2022/09/13 15:44', 
+    },
 
 ]
 export default BugItem

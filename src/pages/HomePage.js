@@ -21,9 +21,10 @@ const HomePage = () => {
       {/* <BlogSection />
       <TimeLine />
       <LeaveMessage />
-      <Footer /> */}
+      */}
       <MainSection />
       <FloatBtn></FloatBtn>
+      <Footer />
       {/* <div></div> */}
     </>
   );

@@ -59,31 +59,19 @@ const MainSection = () => {
             <li>
               <span></span>
               <div>
-                <div class="title">Codify</div>
+                {/* <div class="title">Codify</div> */}
                 <div class="info">Let&apos;s make coolest things in css</div>
-                <div class="type">Presentation</div>
+                {/* <div class="type">Presentation</div> */}
               </div>
             </li>
             <li>
               <div>
                 <span></span>
-                <div class="title">Codify</div>
+                {/* <div class="title">Codify</div> */}
                 <div class="info">
                   Let&apos;s make coolest things in javascript
                 </div>
-                <div class="type">Presentation</div>
-              </div>
-              <span class="number">
-                <span></span>
-                <span></span>
-              </span>
-            </li>
-            {/* <li>
-              <div>
-                <span></span>
-                <div class="title">Codify</div>
-                <div class="info">Let&apos;s make coolest things in css</div>
-                <div class="type">Review</div>
+                {/* <div class="type">Presentation</div> */}
               </div>
               <span class="number">
                 <span></span>
@@ -93,27 +81,15 @@ const MainSection = () => {
             <li>
               <div>
                 <span></span>
-                <div class="title">Codify</div>
+                {/* <div class="title">Codify</div> */}
                 <div class="info">Let&apos;s make coolest things in css</div>
-                <div class="type">Review</div>
+                {/* <div class="type">Review</div> */}
               </div>
               <span class="number">
                 <span></span>
                 <span></span>
               </span>
             </li>
-            <li>
-              <div>
-                <span></span>
-                <div class="title">Codify</div>
-                <div class="info">Let&apos;s make coolest things in css</div>
-                <div class="type">Review</div>
-              </div>
-              <span class="number">
-                <span></span>
-                <span></span>
-              </span>
-            </li> */}
           </ul>
         </div>
       </MainBlog>
@@ -179,7 +155,7 @@ const MainSection = () => {
         </div>
       </MainContent>
       
-      <Footer/>
+      {/* <Footer/> */}
     </MainContainer>
   );
 };

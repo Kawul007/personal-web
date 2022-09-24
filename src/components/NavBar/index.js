@@ -52,10 +52,11 @@ const Navbar = ({ toggle }) => {
                   offset={-80}
                 >
                   {/* <BiHome /> */}
-                  <svg className="icon" aria-hidden="true">
+                  {/* <svg className="icon" aria-hidden="true">
                     <use xlinkHref="#icon-a-fangzipixel_huaban1"></use>
                   </svg>
-                  &nbsp;首页
+                  &nbsp; */}
+                  首页
                 </NavLinks>
               </NavItem>
               <NavItem>
@@ -68,13 +69,14 @@ const Navbar = ({ toggle }) => {
                   offset={-80}
                 >
                   {/* <BiNotepad /> */}
-                  <svg className="icon" aria-hidden="true">
+                  {/* <svg className="icon" aria-hidden="true">
                     <use xlinkHref="#icon-a-xingpixel_huaban1"></use>
                   </svg>
-                  &nbsp;精选博客
+                  &nbsp; */}
+                  精选博客
                 </NavLinks>
               </NavItem>
-              <NavItem>
+              {/* <NavItem>
                 <NavLinks
                   to="technical"
                   smooth={true}
@@ -83,13 +85,14 @@ const Navbar = ({ toggle }) => {
                   exact={true}
                   offset={-80}
                 >
-                  {/* <AiOutlineTool /> */}
+                  <AiOutlineTool />
                   <svg className="icon" aria-hidden="true">
                     <use xlinkHref="#icon-a-rilipixel_huaban1"></use>
                   </svg>
-                  &nbsp;个人经历
+                  &nbsp;
+                  个人经历
                 </NavLinks>
-              </NavItem>
+              </NavItem> */}
               <NavItem>
                 <NavLinks
                   to="messages"
@@ -100,10 +103,11 @@ const Navbar = ({ toggle }) => {
                   offset={-80}
                 >
                   {/* <BiMessageAltDetail /> */}
-                  <svg className="icon" aria-hidden="true">
+                  {/* <svg className="icon" aria-hidden="true">
                     <use xlinkHref="#icon-a-xinfengpixel_huaban1"></use>
                   </svg>
-                  &nbsp;留言板
+                  &nbsp; */}
+                  留言板
                 </NavLinks>
               </NavItem>
             </NavMenu>

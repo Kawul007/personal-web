@@ -10,7 +10,7 @@ position: sticky;
 bottom: 0; */
   display: flex;
   flex-direction: column;
-  flex: 0 10 auto;
+  flex: 0 0 auto;
   /* margin-top: 60px; */
   width: 100%;
   /* z-index: 1111; */

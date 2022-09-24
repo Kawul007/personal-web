@@ -2,20 +2,21 @@ import styled from "styled-components";
 export const MainContainer = styled.div`
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 300vh;
+  
 `;
 export const MainProfile = styled.div`
   display: inline-block;
   position: sticky;
-  top: 55px;
-  bottom: 0;
+  top: 50px;
+  bottom: 40px;
   width: 18%;
   height: 100vh;
   margin-left: 1%;
   margin-top: 40px;
   background-color: white;
   box-shadow: 5px 5px 5px grey;
-  z-index: 111;
+  /* z-index: 111; */
   #image {
     display: block;
     width: 70px;
@@ -58,7 +59,7 @@ export const MainProfile = styled.div`
 export const MainContent = styled.div`
   float: left;
   width: 70%;
-  height: fit-content;
+  height:293vh;
   margin-left: 5%;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -156,7 +157,7 @@ export const MainBlog = styled.div`
     background-color: rgba(255, 255, 255, 0.2);
     padding: 14px;
     border-radius: 6px;
-    width: 120px;
+    width: 130px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.08);
   }
   .container ul li:not(:first-child) {
@@ -194,10 +195,10 @@ export const MainBlog = styled.div`
     font-size: 12px;
   }
   .container div .info {
-    font-weight: 300;
+    /* font-weight: 300; */
   }
   .container div > div {
-    margin-top: 5px;
+    /* margin-top: 5px; */
   }
   .container span.number {
     height: 100%;

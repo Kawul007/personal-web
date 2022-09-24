@@ -1,33 +1,30 @@
 import styled from "styled-components";
 
 export const BugDetailWrapper = styled.div`
+  position: relative;
   width: 100%;
   height: fit-content;
-position: relative;
-  
 `;
+
 export const BugDetailImage = styled.div`
   display: inline-block;
   width: 100%;
-  height: 300px;
-  position: absolute;
-  /* overflow: hidden; */
+  height: 400px;
+  /* background-color: rgba(255, 255, 255, 0.9); */
+
   img {
     display: inline-block;
-    /* overflow: hidden; */
-    position: relative;
     width: 100%;
     height: 100%;
     margin-top: -50px;
     background-size: cover;
     vertical-align: top;
     z-index: -1;
+   
   }
   .demo {
-    position: absolute;
     width: 100%;
-    height: 300px;
-    /* background-color: aliceblue; */
+    height: fit-content;
     margin-top: -300px;
     color: white;
     text-align: center;
@@ -44,7 +41,6 @@ export const BugDetailImage = styled.div`
     }
   }
   .back {
-    position: absolute;
     width: 100%;
     height: 50px;
     z-index: 111111;
@@ -58,19 +54,15 @@ export const BugDetailImage = styled.div`
   }
 `;
 export const BugImageInfo = styled.div`
-  position: absolute;
+  position: relative;
   width: 90%;
-  /* height: 1000px; */
-  /* margin-top: -100px; */
-  /* padding: 0px;
-  margin: 0px; */
-  top: 300px;
+  height: fit-content;
   margin: 0px 5%;
-  /* text-align: center; */
   color: white;
   z-index: 1111;
 `;
 export const BugDetailContent = styled.div`
+  position: relative;
   float: left;
   width: 80%;
   height: auto;
@@ -84,6 +76,7 @@ export const BugDetailContent = styled.div`
     height: auto;
     border-radius: 10px 10px 0px 0px;
     /* box-shadow: 5px 0px 5px 5px grey; */
+
   }
   #logic {
     width: 100%;
@@ -121,19 +114,18 @@ export const BugDetailRecomend = styled.div`
   float: right;
   width: 20%;
   height: 100vh;
-  top: 0px;
-  left: 0;
+  
+
   /* background-color: #f0bdef; */
 `;
 export const BugDetailCategroy = styled.div`
-  /* padding: 20px;
-box-sizing: border-box; */
   margin: 15px 5%;
   width: 90%;
   height: 200px;
   border-radius: 10px;
   background-color: #c4fbec;
-  box-shadow: 5px 5px 5px grey;
+  /* box-shadow: 5px 5px 5px grey; */
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.08);
   h3 {
     padding: 5px;
     width: fit-content;
@@ -151,7 +143,6 @@ box-sizing: border-box; */
     margin-top: 5px;
     width: 70%;
     padding-left: 20px;
-
     font-size: 18px;
     list-style: none;
     &:hover {
@@ -169,13 +160,13 @@ box-sizing: border-box; */
   }
 `;
 export const BugDetailMore = styled.div`
-  height: 500px;
   margin: 15px 5%;
   width: 90%;
-  height: 400px;
+  height: 350px;
   border-radius: 10px;
   background-color: #c4fbec;
-  box-shadow: 5px 5px 5px grey;
+  /* box-shadow: 5px 5px 5px grey; */
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.08);
   h3 {
     color: #000;
     padding: 10px;
@@ -189,6 +180,7 @@ export const BugDetailMore = styled.div`
     width: 90%;
     height: 60px;
     margin: 5px 5%;
+    list-style: none;
     /* background: #000; */
   }
   ul li a img {

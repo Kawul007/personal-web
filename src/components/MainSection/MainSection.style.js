@@ -3,64 +3,13 @@ export const MainContainer = styled.div`
   position: relative;
   width: 100%;
   height: 300vh;
-  
 `;
-export const MainProfile = styled.div`
-  display: inline-block;
-  position: sticky;
-  top: 50px;
-  bottom: 40px;
-  width: 18%;
-  height: 100vh;
-  margin-left: 1%;
-  margin-top: 40px;
-  background-color: white;
-  box-shadow: 5px 5px 5px grey;
-  /* z-index: 111; */
-  #image {
-    display: block;
-    width: 70px;
-    height: 70px;
-    margin: 50px auto;
-  }
-  ul {
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  ul li img {
-    display: inline-block;
-    height: 20px;
-    width: 20px;
-  }
-  ul li a {
-    display: inline-block;
-    width: 25px;
-    height: 25px;
-  }
-  ul li {
-    display: inline-block;
-    /* margin-top: 50px; */
-    /* height: 30px;
-    width: 30px; */
-    text-align: center;
-    margin: 0px 10px;
-    list-style: none;
-    color: #000;
-    font-weight: 700;
-    /* backface-visibility: hidden; */
-    /* &:hover{
-      transform:translateY(-50%);
-    } */
-  }
-`;
+
 export const MainContent = styled.div`
   float: left;
-  width: 70%;
-  height:293vh;
-  margin-left: 5%;
+  width: 80%;
+  height: 300vh;
+  margin-left: 10%;
   margin-top: 40px;
   margin-bottom: 40px;
   background-color: white;
@@ -131,8 +80,11 @@ export const MainContent = styled.div`
   }
 `;
 export const MainBlog = styled.div`
-  width: 100%;
-  height: fit-content;
+  display: inline-block;
+  position: sticky;
+  width: 18%;
+  margin-left: 2%;
+  height: 100vh;
   margin-top: 40px;
   background-color: white;
   .container ul {
@@ -183,6 +135,15 @@ export const MainBlog = styled.div`
     left: -5px;
     top: 0;
   }
+  h4 {
+    .icon {
+      width: 1.1em;
+      height: 1.1em;
+      fill: currentColor;
+      display: inline-block;
+    }
+  }
+
   .container ul li span:after {
     top: 100%;
   }

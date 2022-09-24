@@ -16,6 +16,10 @@ export const TopBug = styled.a`
   height: 180px;
   border-bottom: 1px solid #eeeeee;
   &:hover {
+    /* border: 1px solid #2dae8a; */
+   p,h3{
+    font-weight: 700;
+   }
     img {
       transform: scale(1.1);
     }
@@ -25,7 +29,7 @@ export const TopBug = styled.a`
 export const BugImg = styled.img`
   float: right;
   width: 30%;
-  height: 180px;
+  height: 200px;
   box-sizing: border-box;
   padding: 20px;
 `;
@@ -39,7 +43,7 @@ export const BugContent = styled.div`
   h3 {
     font-size: 20px;
     color: #000;
-    font-weight: 700;
+    font-weight: 500;
     /* text-indent: 2rem; */
   }
   p {

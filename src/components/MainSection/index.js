@@ -26,7 +26,7 @@ const MainSection = () => {
   };
   return (
     <MainContainer id="blogs">
-      <MainProfile>
+      {/* <MainProfile>
         <img src={ImageProfile} id="image"></img>
         <ul>
           <li>
@@ -51,27 +51,28 @@ const MainSection = () => {
               <img src={Linked} title="Follow Me on LinkedIN"></img>
             </a>
           </li>
-        </ul>
-        <MainBlog>
-        <h4 style={{ color: "black", marginLeft: 15 }}>Latest changes</h4>
+        </ul> */}
+        {/* <MainBlog>
+        <h4 style={{ color: "black", marginLeft: 15 }}><i className="iconfont icon-shijian"></i>
+                &nbsp;Latest changes</h4>
         <div class="container">
           <ul>
             <li>
               <span></span>
               <div>
-                {/* <div class="title">Codify</div> */}
+              
                 <div class="info">Let&apos;s make coolest things in css</div>
-                {/* <div class="type">Presentation</div> */}
+              
               </div>
             </li>
             <li>
               <div>
                 <span></span>
-                {/* <div class="title">Codify</div> */}
+                
                 <div class="info">
                   Let&apos;s make coolest things in javascript
                 </div>
-                {/* <div class="type">Presentation</div> */}
+              
               </div>
               <span class="number">
                 <span></span>
@@ -81,9 +82,27 @@ const MainSection = () => {
             <li>
               <div>
                 <span></span>
-                {/* <div class="title">Codify</div> */}
                 <div class="info">Let&apos;s make coolest things in css</div>
-                {/* <div class="type">Review</div> */}
+              </div>
+              <span class="number">
+                <span></span>
+                <span></span>
+              </span>
+            </li>
+            <li>
+              <div>
+                <span></span>
+                <div class="info">Let&apos;s make coolest things in css</div>
+              </div>
+              <span class="number">
+                <span></span>
+                <span></span>
+              </span>
+            </li>
+            <li>
+              <div>
+                <span></span>
+                <div class="info">Let&apos;s make coolest things in css</div>
               </div>
               <span class="number">
                 <span></span>
@@ -92,8 +111,8 @@ const MainSection = () => {
             </li>
           </ul>
         </div>
-      </MainBlog>
-      </MainProfile>
+      </MainBlog> */}
+      {/* </MainProfile> */}
       <MainContent>
         <div className="container">
           <div className="bloc-tabs">

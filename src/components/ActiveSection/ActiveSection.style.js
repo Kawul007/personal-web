@@ -45,7 +45,7 @@ export const SectionContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 0 30px;
-  height: 750px;
+  height: 100vh;
   position: relative;
   z-index: 1;
 `;
@@ -101,11 +101,11 @@ export const SectionContent = styled.div`
   }
   /* z-index: 1000; */
  
-  /* @media screen and (min-width: 1160px) {
+  @media screen and (min-width: 1160px) {
     h3 {
-      font-size: 20px;
+      font-size: 25spx;
     }
-  } */
+  }
 `;
 
 export const SectionItem = styled.div`
@@ -117,7 +117,7 @@ export const SectionItem = styled.div`
   overflow: hidden;
   text-align: center;
   align-items: center;
-  font-size: 10px;
+  /* font-size: 10px; */
   font-weight: 700;
   font-family: sans-serif;
   /* margin: 0 auto; */
@@ -155,7 +155,7 @@ export const SectionItem = styled.div`
   }
   @media screen and (min-width: 1160px) {
     transition: 0.8s all ease;
-    font-size: 25px;
+    font-size:25px;
   }
 `;
 

@@ -11,6 +11,7 @@ import MainSection from "../components/MainSection";
 import TodoForm from "../components/TodoList/TodoForm";
 import Games from "../components/Games";
 import Learn from "../components/Learn";
+import Filter from "../components/Filter";
 const HomePage = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
@@ -18,14 +19,14 @@ const HomePage = () => {
   };
   return (
     <>
+      {/* <Filter /> */}
       <MobileBar isOpen={isOpen} toggle={toggle} />
       <NavBar toggle={toggle} />
       <ActiveSection />
       <MainSection />
-      <Learn/>
-      <Games/>
+      <Learn />
+      <Games />
       <FloatBtn />
-      {/* <TodoForm/> */}
       <LeaveMessage />
       <Footer />
     </>

@@ -2,40 +2,35 @@ import styled from "styled-components";
 
 export const TalkWrapper = styled.div`
   width: 100%;
-  height: fit-content;
-  margin: 0;
-  padding: 0;
-  font-size: 0;
-  border-bottom: 1px solid transparent;
-  /* background-color: blue; */
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 1rem;
 `;
 export const TopTalk = styled.a`
-  display: inline-block;
-  box-sizing: border-box;
-  width: 100%;
-  height: 180px;
-  border-bottom: 1px solid #eeeeee;
+ width: 220px;
+  height: 260px;
+  color:#000;
+  text-decoration:none;
   &:hover {
-    img {
-      transform: scale(1.1);
+    h4 {
+      text-decoration: underline;
+      color: #25c0ad;
     }
+    /* img {
+      transform: scale(0.9);
+    } */
     /* background-color:  #d9eff7; */
   }
 `;
 export const TalkImg = styled.img`
-  float: right;
-  width: 30%;
-  height: 180px;
-  box-sizing: border-box;
-  padding: 20px;
+   width: 100%;
+  height: 50%;
 `;
 export const TalkContent = styled.div`
-  float: left;
-  width: 70%;
-  height: 180px;
-  /* background-color: aqua; */
-  box-sizing: border-box;
-  padding: 20px;
+   width: 100%;
+   height: 50%;
   h3 {
     font-size: 20px;
     color: #000;

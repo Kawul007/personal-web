@@ -1,5 +1,4 @@
-import React, { Components, useState } from "react";
-import * as ReactDOM from "react-dom";
+import React, { useEffect, useState } from "react";
 import {
   MainTitle,
   MainBlog,
@@ -11,113 +10,71 @@ import {
 } from "./MainSection.style";
 import DailyBug from "../DailyBug/index";
 import DailyTalk from "../DailyTalk/index";
-import ImageProfile from "../../images/profile.png";
-import Man from "../../images/man.png";
-import MyGit from "../../images/mygit.png";
-import Mail from "../../images/mail.png";
-import Tele from "../../images/telphone .png";
-import Linked from "../../images/Linkedin.png";
-import FloatBtn from "../FloatBtn/index";
-import Footer from "../Footer/index"
+import FilterBtn from "./FilterBtn";
+import Items from "../../BlogItems.json"
+import { motion, AnimatePresence } from "framer-motion";
+import ResultItem from "./ResultItem";
 const MainSection = () => {
+  const [blog, setBlog] = useState([]);
+  const [filtered, setFiltered] = useState([]);
+  const [activeBtn, setActiveBtn] = useState(0);
   const [toggleState, setToggleState] = useState(1);
   const toggleTab = (index) => {
     setToggleState(index);
   };
+  
+  const fetchBlogs = async () => {
+    const data = fetch (
+      "../../BlogItems.json"
+    );
+    console.log(data);
+    const items = data.json();
+    setBlog(items.results);
+    console.log(items);
+    setFiltered(items.results);
+  };
+  useEffect(() => {
+    fetchBlogs();
+  }, []);
+  // useEffect(() => {
+  //   fetch("./BlogItems.json")
+  //     .then((response) => response.json())
+  //     .then((items) => {
+  //       setBlog(items.resoults);
+  //       console.log(items);
+  //       setFiltered(items.resoults);
+  //     })
+  //     .catch((err) => {
+  //       console.log(err);
+  //     });
+  //   // .finally(() => {
+  //   //   setLoading(false);
+  //   // });
+  // }, []);
   return (
     <MainContainer id="blog">
-      <DailyBug/>
-      {/* <DailyTalk/> */}
-      {/* <MainProfile>
-        <img src={ImageProfile} id="image"></img>
-        <ul>
-          <li>
-            <a href="https://github.com/Kawul007">
-              <img src={MyGit} title="Follow Me On Github"></img>
-            </a>
-          </li>
-          <li>
-            <img src={Mail} title="kai423455@gmail.com"></img>
-          </li>
-          <li>
-            <a href="https://tw9tyeil4i.feishu.cn/docx/doxcnwoIOiKTJKug3GKNBHqZQ8d">
-              <img src={Man} title="Online-CV"></img>
-            </a>
-          </li>
-          <li>
-            <img src={Tele} title="My Phone +86-18306014646"></img>
-          </li>
-
-          <li>
-            <a href="www.linkedin.com/in/kawul4234">
-              <img src={Linked} title="Follow Me on LinkedIN"></img>
-            </a>
-          </li>
-        </ul> */}
-        {/* <MainBlog>
-        <h4 style={{ color: "black", marginLeft: 15 }}><i className="iconfont icon-shijian"></i>
-                &nbsp;Latest changes</h4>
-        <div class="container">
-          <ul>
-            <li>
-              <span></span>
-              <div>
-              
-                <div class="info">Let&apos;s make coolest things in css</div>
-              
-              </div>
-            </li>
-            <li>
-              <div>
-                <span></span>
-                
-                <div class="info">
-                  Let&apos;s make coolest things in javascript
-                </div>
-              
-              </div>
-              <span class="number">
-                <span></span>
-                <span></span>
-              </span>
-            </li>
-            <li>
-              <div>
-                <span></span>
-                <div class="info">Let&apos;s make coolest things in css</div>
-              </div>
-              <span class="number">
-                <span></span>
-                <span></span>
-              </span>
-            </li>
-            <li>
-              <div>
-                <span></span>
-                <div class="info">Let&apos;s make coolest things in css</div>
-              </div>
-              <span class="number">
-                <span></span>
-                <span></span>
-              </span>
-            </li>
-            <li>
-              <div>
-                <span></span>
-                <div class="info">Let&apos;s make coolest things in css</div>
-              </div>
-              <span class="number">
-                <span></span>
-                <span></span>
-              </span>
-            </li>
-          </ul>
-        </div>
-      </MainBlog> */}
-      {/* </MainProfile> */}
+      <FilterBtn
+        blog={blog}
+        setFiltered={setFiltered}
+        activeBtn={activeBtn}
+        setActiveBtn={setActiveBtn}
+      />
+      <motion.div className="blog-container">
+        <AnimatePresence>
+          {filtered.map((item) => {
+            return <ResultItem key={item.id} item={item} />;
+          })}
+        </AnimatePresence>
+      </motion.div>
       {/* <MainContent>
         <div className="container">
           <div className="bloc-tabs">
+          <button
+              className={toggleState === 4 ? "tabs active-tabs" : "tabs"}
+              onClick={() => toggleTab(4)}
+            >
+              全部内容
+            </button>
             <button
               className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
               onClick={() => toggleTab(1)}
@@ -134,14 +91,9 @@ const MainSection = () => {
               className={toggleState === 3 ? "tabs active-tabs" : "tabs"}
               onClick={() => toggleTab(3)}
             >
-              学习外语
+              Bug记录
             </button>
-            <button
-              className={toggleState === 4 ? "tabs active-tabs" : "tabs"}
-              onClick={() => toggleTab(4)}
-            >
-              摸会儿鱼
-            </button>
+            
           </div>
           <div className="content-tabs">
             <div
@@ -175,7 +127,7 @@ const MainSection = () => {
           </div>
         </div>
       </MainContent> */}
-      
+
       {/* <Footer/> */}
     </MainContainer>
   );

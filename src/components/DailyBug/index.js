@@ -15,13 +15,14 @@ const DailyBug = () => {
       <BugWrapper id="bug">
         {BugItem.map((item) => (
           <TopBug href="/personal-web/bugDetail">
-            <BugContent>
-              {" "}
-              <h3>{item.title}</h3>
-              <p>{item.info}</p>
-              <span>{item.date}&nbsp;&nbsp;&nbsp;{item.type}</span>
-            </BugContent>
             <BugImg src={item.image}></BugImg>
+            <BugContent>
+              <span>
+                {item.date}&nbsp;&nbsp;&nbsp;{item.type}
+              </span>
+              <h4>{item.title}</h4>
+              {/* <p>{item.info}</p> */}
+            </BugContent>
           </TopBug>
         ))}
         {/* <MoreBug>
@@ -35,7 +36,6 @@ const DailyBug = () => {
             </a>
           </MoreBug> */}
       </BugWrapper>
-
     </>
   );
 };

@@ -4,23 +4,24 @@ import {
   TalkWrapper,
   TopTalk,
   MoreTalk,
-  TalkContent
+  TalkContent,
 } from "../../components/DailyTalk/DailyTalk.style";
 import TalkItem from "./TalkItem";
 const DailyTalk = () => {
   return (
     <TalkWrapper id="talk">
       {TalkItem.map((item) => (
-          <TopTalk>
-            <TalkContent>
-              {" "}
-              <h3>{item.title}</h3>
-              <p>{item.info}</p>
-              <span>{item.date}&nbsp;&nbsp;&nbsp;{item.type}</span>
-            </TalkContent>
-            <TalkImg src={item.image}></TalkImg>
-          </TopTalk>
-        ))}
+        <TopTalk>
+          <TalkImg src={item.image}></TalkImg>
+          <TalkContent>
+            <span>
+              {item.date}&nbsp;&nbsp;&nbsp;{item.type}
+            </span>
+            <h4>{item.title}</h4>
+            {/* <p>{item.info}</p> */}
+          </TalkContent>
+        </TopTalk>
+      ))}
       {/* <MoreTalk>
         <a>
           查看更多

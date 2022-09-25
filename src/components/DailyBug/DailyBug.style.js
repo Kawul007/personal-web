@@ -1,46 +1,39 @@
 import styled from "styled-components";
 
 export const BugWrapper = styled.div`
-  width: 75%;
-  height: fit-content;
-  margin: 0;
-  padding: 0;
-  font-size: 0;
-  margin: 30px auto;
-  border-bottom: 1px solid transparent;
-  /* background-color: blue; */
-`;
-export const TopBug = styled.a`
-  display: inline-block;
-  box-sizing: border-box;
   width: 100%;
-  height: 180px;
-  border-bottom: 1px solid #eeeeee;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-column-gap: 0.5rem;
+  grid-row-gap: 1rem;
+ 
+`;
+
+export const TopBug = styled.a`
+  width: 220px;
+  height: 260px;
+  color:#000;
+  text-decoration:none;
   &:hover {
-    /* border: 1px solid #2dae8a; */
-   /* p,h3{
-    font-weight: 700;
-   } */
-    img {
-      transform: scale(0.9);
+    h4 {
+      text-decoration: underline;
+      color: #25c0ad;
     }
+    /* img {
+      transform: scale(0.9);
+    } */
     /* background-color:  #d9eff7; */
   }
 `;
 export const BugImg = styled.img`
-  float: right;
-  width: 30%;
-  height: 200px;
-  box-sizing: border-box;
-  padding: 20px;
+  width: 100%;
+  height: 50%;
 `;
 export const BugContent = styled.div`
-  float: left;
-  width: 70%;
-  height: 180px;
-  /* background-color: aqua; */
-  box-sizing: border-box;
-  padding: 20px;
+  width: 100%;
+  height: 50%;
+
   h3 {
     font-size: 20px;
     color: #000;

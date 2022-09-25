@@ -17,7 +17,7 @@ export const Nav = styled.nav`
  
   z-index: 1000;
 
-  @media screen and (max-width: 1160px) {
+  @media screen and (max-width: 768px) {
     transition: 0.8s all ease;
   }
 `;
@@ -34,7 +34,7 @@ export const NavbarContainer = styled.div`
 export const MobileIcon = styled.div`
   display: none;
 
-  @media screen and (max-width: 1160px) {
+  @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
     top: 0%;
@@ -68,7 +68,7 @@ export const NavMenu = styled.ul`
   overflow: hidden;
   list-style: none;
 
-  @media screen and (max-width: 1160px) {
+  @media screen and (max-width: 768px) {
     display: none;
   }
 `;
@@ -112,7 +112,7 @@ export const NavBtn = styled.nav`
   display: flex;
   align-items: center;
 
-  @media screen and (max-width: 1160px) {
+  @media screen and (max-width: 768px) {
     display: none;
   }
 `;

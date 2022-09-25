@@ -26,6 +26,8 @@ const MainSection = () => {
   };
   return (
     <MainContainer id="blog">
+      <DailyBug/>
+      {/* <DailyTalk/> */}
       {/* <MainProfile>
         <img src={ImageProfile} id="image"></img>
         <ul>
@@ -113,7 +115,7 @@ const MainSection = () => {
         </div>
       </MainBlog> */}
       {/* </MainProfile> */}
-      <MainContent>
+      {/* <MainContent>
         <div className="container">
           <div className="bloc-tabs">
             <button
@@ -172,7 +174,7 @@ const MainSection = () => {
             </div>
           </div>
         </div>
-      </MainContent>
+      </MainContent> */}
       
       {/* <Footer/> */}
     </MainContainer>

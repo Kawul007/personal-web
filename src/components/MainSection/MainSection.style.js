@@ -12,8 +12,8 @@ export const MainContent = styled.div`
   margin-left: 10%;
   margin-top: 40px;
   margin-bottom: 40px;
-  background-color: white;
-  box-shadow: 5px 5px 5px grey;
+  /* background-color: white; */
+  /* box-shadow: 5px 5px 5px grey; */
 
   .container {
     display: flex;
@@ -56,14 +56,14 @@ export const MainContent = styled.div`
 
   button {
     border: none;
-    background-color: #fff;
+    background-color: inherit;
     color: #000;
   }
   .content-tabs {
     flex-grow: 1;
   }
   .content {
-    background: #fff;
+    /* background: #fff; */
     box-sizing: border-box;
     padding: 20px;
     width: 100%;
@@ -86,7 +86,7 @@ export const MainBlog = styled.div`
   margin-left: 2%;
   height: 100vh;
   margin-top: 40px;
-  background-color: white;
+  /* background-color: white; */
   .container ul {
     display: block;
     margin: 0;

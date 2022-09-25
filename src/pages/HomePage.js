@@ -9,6 +9,8 @@ import Footer from "../components/Footer";
 import FloatBtn from "../components/FloatBtn";
 import MainSection from "../components/MainSection";
 import TodoForm from "../components/TodoList/TodoForm";
+import Games from "../components/Games";
+import Learn from "../components/Learn";
 const HomePage = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
@@ -20,6 +22,8 @@ const HomePage = () => {
       <NavBar toggle={toggle} />
       <ActiveSection />
       <MainSection />
+      <Learn/>
+      <Games/>
       <FloatBtn />
       {/* <TodoForm/> */}
       <LeaveMessage />

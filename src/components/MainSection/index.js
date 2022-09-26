@@ -64,7 +64,7 @@ const MainSection = () => {
       />
       <motion.div className="blog-container">
         <AnimatePresence>
-          {filtered.map((item) => {
+          {items.map((item) => {
             return <ResultItem key={item.id} item={item} />;
           })}
         </AnimatePresence>

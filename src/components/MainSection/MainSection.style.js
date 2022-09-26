@@ -1,8 +1,19 @@
 import styled from "styled-components";
 export const MainContainer = styled.div`
-  position: relative;
+  /* position: relative; */
   width: 100%;
-  height: max-content;
+  height: fit-content;
+  /* background-color: yellow; */
+  .blog-container {
+    /* background-color: black; */
+    margin: 0px auto;
+    width: 90%;
+    height: 200vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 0.9fr));
+    grid-column-gap: 0.8rem;
+    grid-row-gap: 1.22rem;
+  }
 `;
 
 export const MainContent = styled.div`
@@ -178,15 +189,15 @@ export const MainBlog = styled.div`
   }
 `;
 export const BtnWrapper = styled.div`
+  margin: 30px auto;
+  width: 80%;
+  height: 60px;
   .btn-container button {
-    margin-left: 2rem;
-    min-width: 5rem;
-    padding: 0.5rem 1rem;
+    width: 25%;
+    height: 60px;
     border: none;
     background: white;
     color: rgb(65, 98, 168);
-    border-radius: 1rem;
-    border: 2px solid rgb(65, 98, 168);
     font-weight: 700;
     cursor: pointer;
   }
@@ -194,22 +205,21 @@ export const BtnWrapper = styled.div`
     background-color: rgb(65, 98, 168);
     color: white;
   }
-  .blog-container{
-    display:grid;
-    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
-    grid-column-gap: 1rem;
-    grid-row-gap: 2rem;
+`;
+export const ResoultWrapper = styled.div`
+  display: inline-block;
+  width: 220px;
+  height: 260px;
+  margin-left: 25px;
+  /* background-color: red; */
+  .img {
+    display: inline-block;
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    vertical-align: middle;
   }
-  .result{
-     width: 220px;
-     height: 260px;
-     img{
-      width: 100%;
-      height: 40%;
-     }
-     span{
-      display: inline-block;
-     }
-     
+  span {
+    display: inline-block;
   }
 `;

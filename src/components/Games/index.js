@@ -1,6 +1,12 @@
 import React from "react";
-import { GameWrapper, TitleSection, ImgSection } from "./Games.style";
+import {
+  GameWrapper,
+  TitleSection,
+  ImgSection,
+ 
+} from "./Games.style";
 import Play from "../../images/playgame.gif";
+import Video from "../../videos/ocean.mp4";
 const Games = () => {
   return (
     <GameWrapper id="play">
@@ -13,7 +19,10 @@ const Games = () => {
           <p>外界游戏</p>
         </div>
       </TitleSection>
-      <ImgSection src={Play}></ImgSection>
+      <ImgSection>
+  
+       
+      </ImgSection>
     </GameWrapper>
   );
 };

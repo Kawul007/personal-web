@@ -11,7 +11,8 @@ import {
 import DailyBug from "../DailyBug/index";
 import DailyTalk from "../DailyTalk/index";
 import FilterBtn from "./FilterBtn";
-import Items from "../../BlogItems.json"
+import Items from "./BlogItems";
+import Item from "../../BlogItems.json";
 import { motion, AnimatePresence } from "framer-motion";
 import ResultItem from "./ResultItem";
 const MainSection = () => {
@@ -22,20 +23,22 @@ const MainSection = () => {
   const toggleTab = (index) => {
     setToggleState(index);
   };
-  
-  const fetchBlogs = async () => {
-    const data = fetch (
-      "../../BlogItems.json"
-    );
-    console.log(data);
-    const items = data.json();
-    setBlog(items.results);
-    console.log(items);
-    setFiltered(items.results);
-  };
-  useEffect(() => {
-    fetchBlogs();
-  }, []);
+  const items = Items;
+  console.log(items);
+  // setBlog(items.results);
+  // setFiltered(items.results);
+  // const fetchBlogs = async () => {
+  //   const items = Items;
+  //   console.log(items);
+  //   // console.log(typeof(items));
+  //   setBlog(items);
+  //   setFiltered(items);
+  //  console.log(filtered)
+  // };
+  // useEffect(() => {
+  //   fetchBlogs();
+  // }, []);
+
   // useEffect(() => {
   //   fetch("./BlogItems.json")
   //     .then((response) => response.json())

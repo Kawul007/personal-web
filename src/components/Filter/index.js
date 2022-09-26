@@ -28,8 +28,7 @@ const Fliter = () => {
 //   }, []);
   const fetchPopular = async () => {
     const data = await fetch(
-    //   "https://api.themoviedb.org/3/movie/popular?api_key=2d7f01bf99f1ea5e439259e376dcf517&language=en-US&page=1"
-    "../MainSection/BlogItems"
+      "https://api.themoviedb.org/3/movie/popular?api_key=2d7f01bf99f1ea5e439259e376dcf517&language=en-US&page=1"
     );
     const movies = await data.json();
     setPopular(movies.results);

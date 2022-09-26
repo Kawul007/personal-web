@@ -10,7 +10,7 @@ const FilterBtn = ({ setActiveBtn, activeBtn, setFiltered, blog }) => {
      item.name.includes(activeBtn)
     );
     setFiltered(filtered);
-    console.log(filtered);
+
   }, [activeBtn]);
 
   return (

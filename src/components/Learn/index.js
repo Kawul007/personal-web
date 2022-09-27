@@ -6,6 +6,7 @@ import Article03 from "../../images/article03.jpg";
 function Learn() {
   return (
     <LearnWrapper id="learn">
+      
       <LearnContainer>
         <img src={Article01}></img>
         <p className="date">
@@ -44,6 +45,7 @@ function Learn() {
 
         <p className="info">How can you connect the unconnected?</p>
       </LearnContainer>
+      {/* <h2>3 Article veryDay, Let English Fly Fly</h2> */}
     </LearnWrapper>
   );
 }

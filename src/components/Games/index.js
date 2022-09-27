@@ -5,12 +5,14 @@ import {
   ImgSection,
  
 } from "./Games.style";
+import TimeLine from "../../components/TimeLine"
 import Play from "../../images/playgame.gif";
 import Video from "../../videos/ocean.mp4";
 const Games = () => {
   return (
     <GameWrapper id="play">
-      <TitleSection>
+      <TimeLine/>
+      {/* <TitleSection>
         <h1>More games Coming Sooon..</h1>
         <div id="games">
           <p>Card 24</p>
@@ -22,7 +24,7 @@ const Games = () => {
       <ImgSection>
   
        
-      </ImgSection>
+      </ImgSection> */}
     </GameWrapper>
   );
 };

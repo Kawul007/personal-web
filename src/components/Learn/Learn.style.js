@@ -30,7 +30,7 @@ export const LearnContainer = styled.div`
   /* background-color: #fff; */
   padding: 50px;
   box-sizing: border-box;
-  margin-top: 100px;
+  margin-top: 50px;
   img {
     display: inline-block;
     height: 60%;

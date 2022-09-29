@@ -38,7 +38,7 @@ export const TechContainer = styled.div`
   @media screen and (max-width: 1160px) {
     padding: 70px 0;
     .img{
-      height: 120vh;
+      height: 110vh;
     }
   }
   /* @media only screen and (max-width: 1700px) {

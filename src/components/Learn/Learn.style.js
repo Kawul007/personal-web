@@ -16,6 +16,7 @@ export const LearnWrapper = styled.div`
   box-sizing: border-box;
   padding: 50px;
 
+
   @media screen and (max-width:768px) {
     height: fit-content;
     flex-direction: column;
@@ -27,9 +28,9 @@ export const LearnContainer = styled.div`
   width: 30%;
   height: 70%;
   /* background-color: #fff; */
-  padding: 30px;
+  padding: 50px;
   box-sizing: border-box;
-  /* margin-top: 50px; */
+  margin-top: 100px;
   img {
     display: inline-block;
     height: 60%;

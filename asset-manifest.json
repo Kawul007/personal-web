@@ -1,14 +1,21 @@
 {
   "files": {
-    "main.css": "/personal-web/static/css/main.0bfa7f21.css",
-    "main.js": "/personal-web/static/js/main.19b62b70.js",
+    "main.css": "/personal-web/static/css/main.773a5c49.css",
+    "main.js": "/personal-web/static/js/main.0d685e0a.js",
+    "static/media/ocean.mp4": "/personal-web/static/media/ocean.2573b98e9dffaeaafbba.mp4",
     "static/media/simpo.mp4": "/personal-web/static/media/simpo.c037cbca50210bc6ee37.mp4",
     "static/media/img-2.jpg": "/personal-web/static/media/img-2.bb238fc1bea8ae2474d2.jpg",
     "static/media/img-4.jpg": "/personal-web/static/media/img-4.a31875b76d39f6458a6e.jpg",
+    "static/media/article04.jpg": "/personal-web/static/media/article04.a9a345815ff75bacdcc0.jpg",
+    "static/media/playgame.gif": "/personal-web/static/media/playgame.ce1709f602712a1db617.gif",
     "static/media/img-5.jpg": "/personal-web/static/media/img-5.7fadbe1bc2b9569a1941.jpg",
     "static/media/blog-img14.jpg": "/personal-web/static/media/blog-img14.af46fd28f276496f1421.jpg",
     "static/media/mario.gif": "/personal-web/static/media/mario.c4f737bf18bb36fa8ed4.gif",
+    "static/media/article03.jpg": "/personal-web/static/media/article03.0aa897a3371d7350ebf1.jpg",
     "static/media/img-10.jpg": "/personal-web/static/media/img-10.a9ac417829777b0c2cb8.jpg",
+    "static/media/blog-img09.jpg": "/personal-web/static/media/blog-img09.401a62665ee496c90462.jpg",
+    "static/media/blog-img08.jpg": "/personal-web/static/media/blog-img08.5ce0934f2c9524271bd4.jpg",
+    "static/media/article02.jpg": "/personal-web/static/media/article02.6c8ce1c827110023bf86.jpg",
     "static/media/blog-img29.jpg": "/personal-web/static/media/blog-img29.b68b1c0fe8a838bfab27.jpg",
     "static/media/blog-img27.png": "/personal-web/static/media/blog-img27.a55e7a048a3edd178659.png",
     "static/media/blog-img28.jpg": "/personal-web/static/media/blog-img28.e972d4eba9a732835a2b.jpg",
@@ -18,6 +25,8 @@
     "static/media/blog-img23.png": "/personal-web/static/media/blog-img23.a30076adc6b28d5f7c56.png",
     "static/media/blog-img04.jpg": "/personal-web/static/media/blog-img04.54c3c51744400f10b6f1.jpg",
     "static/media/blog-img01.jpg": "/personal-web/static/media/blog-img01.c3a639b11ddfbfac920e.jpg",
+    "static/media/blog-img05.jpg": "/personal-web/static/media/blog-img05.0f94593d2892af8eb5a8.jpg",
+    "static/media/blog-img26.png": "/personal-web/static/media/blog-img26.26bf16b2306ef3b8f9f7.png",
     "static/media/blog-img03.jpg": "/personal-web/static/media/blog-img03.b94563e0090860e247ab.jpg",
     "static/media/blog-img24.png": "/personal-web/static/media/blog-img24.098c5b9c6813a34a73c9.png",
     "static/media/iconfont.woff?t=1663598577091": "/personal-web/static/media/iconfont.77f7129868556037d8f2.woff",
@@ -28,11 +37,11 @@
     "static/media/school.svg": "/personal-web/static/media/school.dc479934e86a3c937c7333f36360f209.svg",
     "static/media/profile.webp": "/personal-web/static/media/profile.31c3fa35ced122171de7.webp",
     "index.html": "/personal-web/index.html",
-    "main.0bfa7f21.css.map": "/personal-web/static/css/main.0bfa7f21.css.map",
-    "main.19b62b70.js.map": "/personal-web/static/js/main.19b62b70.js.map"
+    "main.773a5c49.css.map": "/personal-web/static/css/main.773a5c49.css.map",
+    "main.0d685e0a.js.map": "/personal-web/static/js/main.0d685e0a.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bfa7f21.css",
-    "static/js/main.19b62b70.js"
+    "static/css/main.773a5c49.css",
+    "static/js/main.0d685e0a.js"
   ]
 }

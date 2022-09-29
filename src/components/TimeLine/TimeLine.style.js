@@ -6,7 +6,7 @@ import styled from "styled-components";
 // `;
 
 export const TechContainer = styled.div`
-  height: fit-content;
+  height:180vh;
   /* background: #000; */
   width: 100%;
   margin: 0;
@@ -31,12 +31,15 @@ export const TechContainer = styled.div`
     position: absolute;
     display: block;
     width: 100%;
-    height: 1052px;
-    background-size: contain;
+    height: 180vh;
+    background-size: cover;
     
   }
   @media screen and (max-width: 1160px) {
-    padding: 100px 0;
+    padding: 70px 0;
+    .img{
+      height: 120vh;
+    }
   }
   /* @media only screen and (max-width: 1700px) {
   .vertical-timeline-element-date {

@@ -2,7 +2,7 @@ import styled from "styled-components";
 // import "../../index.css"
 export const BlogWrapper = styled.div`
   width: 100%;
-  height: auto;
+  /* height: 100vh; */
   overflow: hidden;
 `;
 

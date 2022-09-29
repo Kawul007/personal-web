@@ -23,9 +23,11 @@ const HomePage = () => {
       <MobileBar isOpen={isOpen} toggle={toggle} />
       <NavBar toggle={toggle} />
       <ActiveSection />
-      <MainSection />
-      <Learn />
+      <BlogSection />
+      {/* <MainSection /> */}
+
       <Games />
+      <Learn />
       <FloatBtn />
       <LeaveMessage />
       <Footer />

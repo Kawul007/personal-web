@@ -78,23 +78,6 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to="learn"
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact={true}
-                  offset={-60}
-                >
-                  {/* <BiMessageAltDetail /> */}
-                  {/* <svg className="icon" aria-hidden="true">
-                    <use xlinkHref="#icon-a-xinfengpixel_huaban1"></use>
-                  </svg>
-                  &nbsp; */}
-                  学习外语
-                </NavLinks>
-              </NavItem>
-              <NavItem>
-                <NavLinks
                   to="play"
                   smooth={true}
                   duration={500}
@@ -110,6 +93,24 @@ const Navbar = ({ toggle }) => {
                   摸会儿鱼
                 </NavLinks>
               </NavItem>
+              <NavItem>
+                <NavLinks
+                  to="learn"
+                  smooth={true}
+                  duration={500}
+                  spy={true}
+                  exact={true}
+                  offset={-60}
+                >
+                  {/* <BiMessageAltDetail /> */}
+                  {/* <svg className="icon" aria-hidden="true">
+                    <use xlinkHref="#icon-a-xinfengpixel_huaban1"></use>
+                  </svg>
+                  &nbsp; */}
+                  学习外语
+                </NavLinks>
+              </NavItem>
+
               <NavItem>
                 <NavLinks
                   to="messages"

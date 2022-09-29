@@ -120,7 +120,7 @@ export const Message = styled.div`
   width: 250px;
   height: 50px;
   font-size: 20px !important;
-  margin-top: 150px;
+  margin-top: 130px;
   justify-content: center;
   /* background-color: antiquewhite; */
   color: black;
@@ -130,6 +130,9 @@ export const Message = styled.div`
   margin-right: auto;
   &:hover {
     color: rgb(214, 122, 127);
+  }
+  @media screen and(max-width:1000px){
+    margin-top: 80px;
   }
 `;
 

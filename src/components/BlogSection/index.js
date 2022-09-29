@@ -16,7 +16,7 @@ import BlogImg2 from "../../images/blog-img03.jpg";
 import BlogImg3 from "../../images/blog-img01.jpg";
 const BlogSection = () => {
   return (
-    <BlogWrapper id="blogs">
+    <BlogWrapper id="blog">
       <CardItem>
         <Cards>
           <CardImg src={BlogImg1}></CardImg>

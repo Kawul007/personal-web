@@ -27,6 +27,7 @@ const BlogSection = () => {
             </CardInfo> */}
             <CardInfo>React相关函数、组件、API调用、JS遇到的坑、Vanilla JS、CSS布局相关调试方法</CardInfo>
             <MoreInfo>
+              
               <span className="moreCont"><a href="/personal-web/blogPage">查看更多</a></span>
               <span className="moreIcon">
                 <svg className="icon" aria-hidden="true">

@@ -13,6 +13,7 @@ import DailyTalk from "../DailyTalk/index";
 import FilterBtn from "./FilterBtn";
 import Items from "./BlogItems";
 import Item from "../../BlogItems.json";
+import Filter from "../Filter"
 import { motion, AnimatePresence } from "framer-motion";
 import ResultItem from "./ResultItem";
 const MainSection = () => {
@@ -30,9 +31,9 @@ const MainSection = () => {
   // const fetchBlogs = async () => {
   //   const items = Items;
   //   console.log(items);
-  //   // console.log(typeof(items));
-  //   setBlog(items);
-  //   setFiltered(items);
+  //   console.log(typeof(items));
+  //   setBlog(items.resoults);
+  //   setFiltered(items.resoults);
   //  console.log(filtered)
   // };
   // useEffect(() => {
@@ -53,7 +54,7 @@ const MainSection = () => {
   //   // .finally(() => {
   //   //   setLoading(false);
   //   // });
-  // }, []);
+  // }, []);  
   return (
     <MainContainer id="blog">
       <FilterBtn

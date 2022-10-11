@@ -24,7 +24,7 @@ const HomePage = () => {
       <NavBar toggle={toggle} />
       <ActiveSection />
      
-      <BlogSection />
+      {/* <BlogSection /> */}
       <MainSection />
 
       <Games />
